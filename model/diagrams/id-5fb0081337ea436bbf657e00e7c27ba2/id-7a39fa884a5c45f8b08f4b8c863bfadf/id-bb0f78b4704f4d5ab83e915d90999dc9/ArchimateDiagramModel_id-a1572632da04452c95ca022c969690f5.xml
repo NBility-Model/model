@@ -1059,15 +1059,6 @@
             value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
-            id="id-8db8711cb27d4075b34018ec50d6058b"
-            source="id-c5ac637513fa48b0a9944c991855b955"
-            target="id-37c9420ba67149ada706371a99aef00b">
-          <archimateRelationship
-              xsi:type="archimate:ServingRelationship"
-              href="ServingRelationship_id-3e96d9d1e847482b9c6a908f0fc38b6d.xml#id-3e96d9d1e847482b9c6a908f0fc38b6d"/>
-        </sourceConnections>
-        <sourceConnections
-            xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-58c60cdf1030434485c8f66026685022"
             source="id-c5ac637513fa48b0a9944c991855b955"
             target="id-cb0e442cc04243f6b3271e75a498b64f">
@@ -1652,7 +1643,7 @@
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-37c9420ba67149ada706371a99aef00b"
-            targetConnections="id-8db8711cb27d4075b34018ec50d6058b id-1efb5a59e8f2470194be9f383e61dcac"
+            targetConnections="id-1efb5a59e8f2470194be9f383e61dcac"
             textPosition="1">
           <features
               name="labelExpression"
