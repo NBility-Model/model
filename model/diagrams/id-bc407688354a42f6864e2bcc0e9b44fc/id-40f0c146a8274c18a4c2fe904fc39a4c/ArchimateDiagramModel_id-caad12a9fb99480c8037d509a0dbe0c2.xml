@@ -590,6 +590,15 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-74dc99b35a8a4c0f8f956f942283cece"
+        source="id-88fdcdbc2425498e927a3075a63cdf15"
+        target="id-87900eae08a54a42919a1d5f41d0b299">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_id-878392.xml#id-878392"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-62a1c6fc4c03412d9d66ce48a147d2de"
         source="id-88fdcdbc2425498e927a3075a63cdf15"
         target="id-e20aa969c4e14f6ebcf2861d195517a9">
@@ -599,15 +608,6 @@
       <archimateRelationship
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-878804.xml#id-878804"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-74dc99b35a8a4c0f8f956f942283cece"
-        source="id-88fdcdbc2425498e927a3075a63cdf15"
-        target="id-87900eae08a54a42919a1d5f41d0b299">
-      <archimateRelationship
-          xsi:type="archimate:CompositionRelationship"
-          href="CompositionRelationship_id-878392.xml#id-878392"/>
     </sourceConnections>
     <bounds
         x="24"
