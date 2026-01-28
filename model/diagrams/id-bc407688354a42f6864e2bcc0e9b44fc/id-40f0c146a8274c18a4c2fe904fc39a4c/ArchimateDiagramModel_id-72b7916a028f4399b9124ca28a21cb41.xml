@@ -5,281 +5,8 @@
     id="id-72b7916a028f4399b9124ca28a21cb41">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-a7a7cb5addc144b08be12f6169c81069"
-      font="1|Segoe UI|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
-      lineColor="#000000"
-      fillColor="#f4f3fb">
-    <features
-        name="iconVisible"
-        value="2"/>
-    <features
-        name="labelExpression"
-        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-20c870d11b494eff9d18c931f2b3905f"
-        source="id-a7a7cb5addc144b08be12f6169c81069"
-        target="id-9d8004c1772d45fa92052b7ea3be6f43">
-      <archimateRelationship
-          xsi:type="archimate:CompositionRelationship"
-          href="CompositionRelationship_id-878937.xml#id-878937"/>
-    </sourceConnections>
-    <bounds
-        x="240"
-        y="228"
-        width="205"
-        height="181"/>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-9d8004c1772d45fa92052b7ea3be6f43"
-        targetConnections="id-20c870d11b494eff9d18c931f2b3905f"
-        lineColor="#000000"
-        fillColor="#edebf9">
-      <features
-          name="iconVisible"
-          value="2"/>
-      <features
-          name="labelExpression"
-          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-88cfffa9a17849e39b9ad5ba59a27c4c"
-          source="id-9d8004c1772d45fa92052b7ea3be6f43"
-          target="id-fa1eecab258c4704b41aea7437422802">
-        <archimateRelationship
-            xsi:type="archimate:AccessRelationship"
-            href="AccessRelationship_id-32cbdacc6eda46d485cf296ad9183ac0.xml#id-32cbdacc6eda46d485cf296ad9183ac0"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-50d7e5face904a43bbe0ceba31f31bfb"
-          source="id-9d8004c1772d45fa92052b7ea3be6f43"
-          target="id-76910a47937a481fad63610d53e6c22c">
-        <archimateRelationship
-            xsi:type="archimate:ServingRelationship"
-            href="ServingRelationship_id-5d52fd9c9bdd44fb872182ba563567bf.xml#id-5d52fd9c9bdd44fb872182ba563567bf"/>
-      </sourceConnections>
-      <bounds
-          x="12"
-          y="72"
-          width="181"
-          height="97"/>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-fa1eecab258c4704b41aea7437422802"
-          targetConnections="id-88cfffa9a17849e39b9ad5ba59a27c4c"
-          lineColor="#000000"
-          fillColor="#edebf9"
-          textPosition="1">
-        <features
-            name="iconVisible"
-            value="2"/>
-        <features
-            name="labelExpression"
-            value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-        <bounds
-            x="12"
-            y="60"
-            width="157"
-            height="25"/>
-        <archimateElement
-            xsi:type="archimate:BusinessObject"
-            href="BusinessObject_id-729661.xml#id-729661"/>
-      </children>
-      <archimateElement
-          xsi:type="archimate:BusinessFunction"
-          href="BusinessFunction_id-718341.xml#id-718341"/>
-    </children>
-    <archimateElement
-        xsi:type="archimate:BusinessFunction"
-        href="BusinessFunction_id-718170.xml#id-718170"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-1c9007dc66b9436cb58678775ba80817"
-      font="1|Segoe UI|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
-      lineColor="#000000"
-      fillColor="#eff6e7">
-    <features
-        name="iconVisible"
-        value="2"/>
-    <features
-        name="labelExpression"
-        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-d9d558fee6fe4d6285fdbc8299ede1a9"
-        source="id-1c9007dc66b9436cb58678775ba80817"
-        target="id-d87a9fa0369b485cb1d0583150de7174">
-      <archimateRelationship
-          xsi:type="archimate:CompositionRelationship"
-          href="CompositionRelationship_id-878512.xml#id-878512"/>
-    </sourceConnections>
-    <bounds
-        x="672"
-        y="228"
-        width="205"
-        height="181"/>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-d87a9fa0369b485cb1d0583150de7174"
-        targetConnections="id-d9d558fee6fe4d6285fdbc8299ede1a9"
-        lineColor="#000000"
-        fillColor="#e5f1d7">
-      <features
-          name="iconVisible"
-          value="2"/>
-      <features
-          name="labelExpression"
-          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-e4f612ba33bb4bb4807d9320d83d70e3"
-          source="id-d87a9fa0369b485cb1d0583150de7174"
-          target="id-d0b87cc17ba740758cc79207fd0fab81">
-        <archimateRelationship
-            xsi:type="archimate:AccessRelationship"
-            href="AccessRelationship_id-4aa84cd953b14d5da886dfa4677e7136.xml#id-4aa84cd953b14d5da886dfa4677e7136"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-39276ae09f2c45e7b5ec05bc720d5ba1"
-          source="id-d87a9fa0369b485cb1d0583150de7174"
-          target="id-46bfa94013644cb1a197de35ee540bda">
-        <archimateRelationship
-            xsi:type="archimate:ServingRelationship"
-            href="ServingRelationship_id-1df9c6f2fc434a72818d7529d1cd4e09.xml#id-1df9c6f2fc434a72818d7529d1cd4e09"/>
-      </sourceConnections>
-      <bounds
-          x="12"
-          y="72"
-          width="181"
-          height="96"/>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-d0b87cc17ba740758cc79207fd0fab81"
-          targetConnections="id-e4f612ba33bb4bb4807d9320d83d70e3"
-          lineColor="#000000"
-          fillColor="#e5f1d7"
-          textPosition="1">
-        <features
-            name="iconVisible"
-            value="2"/>
-        <features
-            name="labelExpression"
-            value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-        <bounds
-            x="12"
-            y="60"
-            width="157"
-            height="25"/>
-        <archimateElement
-            xsi:type="archimate:BusinessObject"
-            href="BusinessObject_id-729651.xml#id-729651"/>
-      </children>
-      <archimateElement
-          xsi:type="archimate:BusinessFunction"
-          href="BusinessFunction_id-718342.xml#id-718342"/>
-    </children>
-    <archimateElement
-        xsi:type="archimate:BusinessFunction"
-        href="BusinessFunction_id-718171.xml#id-718171"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-7e48002ff6d34a29ba6feb8c89908e25"
-      font="1|Segoe UI|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
-      lineColor="#000000"
-      fillColor="#ffe0c2">
-    <features
-        name="iconVisible"
-        value="2"/>
-    <features
-        name="labelExpression"
-        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-e8db6e1070914c4f88e1eb58409291d8"
-        source="id-7e48002ff6d34a29ba6feb8c89908e25"
-        target="id-01dc26f41c6347e0ac4184224f653e45">
-      <archimateRelationship
-          xsi:type="archimate:CompositionRelationship"
-          href="CompositionRelationship_id-878900.xml#id-878900"/>
-    </sourceConnections>
-    <bounds
-        x="24"
-        y="228"
-        width="205"
-        height="181"/>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-01dc26f41c6347e0ac4184224f653e45"
-        targetConnections="id-e8db6e1070914c4f88e1eb58409291d8"
-        lineColor="#000000"
-        fillColor="#ffcc99">
-      <features
-          name="iconVisible"
-          value="2"/>
-      <features
-          name="labelExpression"
-          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-cd726ddd98e34ce590f740f4d7a78425"
-          source="id-01dc26f41c6347e0ac4184224f653e45"
-          target="id-6da3627a6e5e49838c7d96b5ebfc68ee">
-        <archimateRelationship
-            xsi:type="archimate:AccessRelationship"
-            href="AccessRelationship_id-5f4b9bd4d47b48fb92f44c7a37ba17d8.xml#id-5f4b9bd4d47b48fb92f44c7a37ba17d8"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-fb967bbda7bb4b318c23878468f12098"
-          source="id-01dc26f41c6347e0ac4184224f653e45"
-          target="id-f710095949d44c8e98ab79457b552cbf">
-        <archimateRelationship
-            xsi:type="archimate:ServingRelationship"
-            href="ServingRelationship_id-c5ff35f7cc1a4f5fa6a4fb90f32f1343.xml#id-c5ff35f7cc1a4f5fa6a4fb90f32f1343"/>
-      </sourceConnections>
-      <bounds
-          x="12"
-          y="72"
-          width="181"
-          height="97"/>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-6da3627a6e5e49838c7d96b5ebfc68ee"
-          targetConnections="id-cd726ddd98e34ce590f740f4d7a78425"
-          lineColor="#000000"
-          fillColor="#ffcc99"
-          textPosition="1">
-        <features
-            name="iconVisible"
-            value="2"/>
-        <features
-            name="labelExpression"
-            value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-        <bounds
-            x="12"
-            y="60"
-            width="157"
-            height="25"/>
-        <archimateElement
-            xsi:type="archimate:BusinessObject"
-            href="BusinessObject_id-729676.xml#id-729676"/>
-      </children>
-      <archimateElement
-          xsi:type="archimate:BusinessFunction"
-          href="BusinessFunction_id-718383.xml#id-718383"/>
-    </children>
-    <archimateElement
-        xsi:type="archimate:BusinessFunction"
-        href="BusinessFunction_id-718173.xml#id-718173"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
       id="id-e88116f3ecc84f1e98569884446fabea"
-      font="1|Segoe UI|14.25|0|WINDOWS|1|-19|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+      font="1|Segoe UI|11.0|0|WINDOWS|1|-19|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
       fillColor="#ffffff">
     <features
         name="iconVisible"
@@ -316,15 +43,6 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-1f0c3a49903f4b22829692c518e6cc95"
-        source="id-e88116f3ecc84f1e98569884446fabea"
-        target="id-8154ebb7d1494485be4155763e3134ea">
-      <archimateRelationship
-          xsi:type="archimate:CompositionRelationship"
-          href="CompositionRelationship_id-c582dba93ec24c51b98d5b095aa5cc0e.xml#id-c582dba93ec24c51b98d5b095aa5cc0e"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-a4c6b2390fdc48d39cc1619075466b95"
         source="id-e88116f3ecc84f1e98569884446fabea"
         target="id-0fa4edde4e29435a90ac42521b6849ec">
@@ -335,63 +53,17 @@
     <bounds
         x="12"
         y="12"
-        width="1093"
-        height="181"/>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-62f4eb29b7dc44c3b0d5c8eb329574ee"
-        targetConnections="id-5f80e009601c4f599cddfdd01548acdf">
-      <features
-          name="labelExpression"
-          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-      <features
-          name="iconVisible"
-          value="2"/>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-d46d03e2ac2648bf9ce6f001340f039e"
-          source="id-62f4eb29b7dc44c3b0d5c8eb329574ee"
-          target="id-f710095949d44c8e98ab79457b552cbf">
-        <archimateRelationship
-            xsi:type="archimate:CompositionRelationship"
-            href="CompositionRelationship_id-5a4418fc77f140809119eb142553ad57.xml#id-5a4418fc77f140809119eb142553ad57"/>
-      </sourceConnections>
-      <bounds
-          x="12"
-          y="48"
-          width="205"
-          height="121"/>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-f710095949d44c8e98ab79457b552cbf"
-          targetConnections="id-d46d03e2ac2648bf9ce6f001340f039e id-fb967bbda7bb4b318c23878468f12098"
-          textPosition="1">
-        <features
-            name="labelExpression"
-            value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-        <features
-            name="iconVisible"
-            value="2"/>
-        <bounds
-            x="12"
-            y="48"
-            width="181"
-            height="55"/>
-        <archimateElement
-            xsi:type="archimate:BusinessProcess"
-            href="BusinessProcess_id-c9e74e0120d54b34abf6aae3713c01a0.xml#id-c9e74e0120d54b34abf6aae3713c01a0"/>
-      </children>
-      <archimateElement
-          xsi:type="archimate:BusinessProcess"
-          href="BusinessProcess_id-f9b2a17a26e84f049b0ce7dbb08bd208.xml#id-f9b2a17a26e84f049b0ce7dbb08bd208"/>
-    </children>
+        width="1933"
+        height="169"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-75a1e0bff7844bc1aeaac64f9c6e390e"
-        targetConnections="id-291f1abf74d447cb945cc1aa035db9cc">
+        targetConnections="id-291f1abf74d447cb945cc1aa035db9cc"
+        font="1|Segoe UI|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+        fillColor="#f4f3fb">
       <features
           name="labelExpression"
-          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+          value="${property:Code}"/>
       <features
           name="iconVisible"
           value="2"/>
@@ -405,14 +77,15 @@
             href="CompositionRelationship_id-fc40271eec2a4808b1a4524d339ad824.xml#id-fc40271eec2a4808b1a4524d339ad824"/>
       </sourceConnections>
       <bounds
-          x="228"
+          x="12"
           y="48"
-          width="205"
-          height="121"/>
+          width="289"
+          height="109"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-76910a47937a481fad63610d53e6c22c"
           targetConnections="id-0323fa00ed8048c98ef60adec94195e1 id-50d7e5face904a43bbe0ceba31f31bfb"
+          fillColor="#edebf9"
           textPosition="1">
         <features
             name="labelExpression"
@@ -420,11 +93,20 @@
         <features
             name="iconVisible"
             value="2"/>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-d66eb6cfb9134215ae4ac991b848af39"
+            source="id-76910a47937a481fad63610d53e6c22c"
+            target="id-f710095949d44c8e98ab79457b552cbf">
+          <archimateRelationship
+              xsi:type="archimate:TriggeringRelationship"
+              href="TriggeringRelationship_id-4a412c260317455fa8df46a8e8f943be.xml#id-4a412c260317455fa8df46a8e8f943be"/>
+        </sourceConnections>
         <bounds
             x="12"
-            y="48"
-            width="181"
-            height="55"/>
+            y="36"
+            width="265"
+            height="61"/>
         <archimateElement
             xsi:type="archimate:BusinessProcess"
             href="BusinessProcess_id-10c4b06b69474fd98275d80c4251be7f.xml#id-10c4b06b69474fd98275d80c4251be7f"/>
@@ -436,10 +118,12 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-f8e14567691e4beabf2e23ae802f37bb"
-        targetConnections="id-86755ecc0dd140ee92753b98225b3908">
+        targetConnections="id-86755ecc0dd140ee92753b98225b3908"
+        font="1|Segoe UI|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+        fillColor="#eff6e7">
       <features
           name="labelExpression"
-          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+          value="${property:Code}"/>
       <features
           name="iconVisible"
           value="2"/>
@@ -452,15 +136,34 @@
             xsi:type="archimate:CompositionRelationship"
             href="CompositionRelationship_id-1d6fa34a6a41444fbbdefc7573a85f85.xml#id-1d6fa34a6a41444fbbdefc7573a85f85"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-a66951b6f5c947c184b426a821ba0bfb"
+          source="id-f8e14567691e4beabf2e23ae802f37bb"
+          target="id-e89cdae687dc4209ba2cbe48822a4067">
+        <archimateRelationship
+            xsi:type="archimate:CompositionRelationship"
+            href="CompositionRelationship_id-5cbe0006a80d4fdeae1b28a5040427b7.xml#id-5cbe0006a80d4fdeae1b28a5040427b7"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-d9d0cd80669e4bf4a07e626f768f89dd"
+          source="id-f8e14567691e4beabf2e23ae802f37bb"
+          target="id-7d70ad5eb8f04ff7a5d3340dd57557f1">
+        <archimateRelationship
+            xsi:type="archimate:CompositionRelationship"
+            href="CompositionRelationship_id-2de010bc9f074867b27c602cb57c466f.xml#id-2de010bc9f074867b27c602cb57c466f"/>
+      </sourceConnections>
       <bounds
           x="660"
           y="48"
-          width="205"
-          height="121"/>
+          width="937"
+          height="109"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-46bfa94013644cb1a197de35ee540bda"
-          targetConnections="id-44c1a91c6f1848968ad0042ea98f4d93 id-39276ae09f2c45e7b5ec05bc720d5ba1"
+          targetConnections="id-44c1a91c6f1848968ad0042ea98f4d93 id-39276ae09f2c45e7b5ec05bc720d5ba1 id-61547e978d2540d08ef90b59a9797e03"
+          fillColor="#e5f1d7"
           textPosition="1">
         <features
             name="labelExpression"
@@ -470,12 +173,63 @@
             value="2"/>
         <bounds
             x="12"
-            y="48"
-            width="181"
-            height="55"/>
+            y="36"
+            width="265"
+            height="61"/>
         <archimateElement
             xsi:type="archimate:BusinessProcess"
             href="BusinessProcess_id-3c5a9aa8e51d4d8e8453444a74f4c5d9.xml#id-3c5a9aa8e51d4d8e8453444a74f4c5d9"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-e89cdae687dc4209ba2cbe48822a4067"
+          targetConnections="id-a66951b6f5c947c184b426a821ba0bfb id-2e2256aad99f4a3c9119e2f24392076a id-a35865670a58478eb36f847d00c2cdb7"
+          font="1|Segoe UI|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+          fillColor="#e5f1d7">
+        <features
+            name="labelExpression"
+            value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+        <features
+            name="iconVisible"
+            value="2"/>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-59f58c537377421a9a30e6f88de23c6f"
+            source="id-e89cdae687dc4209ba2cbe48822a4067"
+            target="id-7d70ad5eb8f04ff7a5d3340dd57557f1">
+          <archimateRelationship
+              xsi:type="archimate:TriggeringRelationship"
+              href="TriggeringRelationship_id-7f547667786f400594da683976531f40.xml#id-7f547667786f400594da683976531f40"/>
+        </sourceConnections>
+        <bounds
+            x="336"
+            y="36"
+            width="265"
+            height="61"/>
+        <archimateElement
+            xsi:type="archimate:BusinessProcess"
+            href="BusinessProcess_id-04d1743f48aa481b97b2d5279b35003e.xml#id-04d1743f48aa481b97b2d5279b35003e"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-7d70ad5eb8f04ff7a5d3340dd57557f1"
+          targetConnections="id-d9d0cd80669e4bf4a07e626f768f89dd id-d21e9cad8f384dacaabc475e05bac407 id-59f58c537377421a9a30e6f88de23c6f"
+          font="1|Segoe UI|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+          fillColor="#e5f1d7">
+        <features
+            name="labelExpression"
+            value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+        <features
+            name="iconVisible"
+            value="2"/>
+        <bounds
+            x="660"
+            y="36"
+            width="265"
+            height="61"/>
+        <archimateElement
+            xsi:type="archimate:BusinessProcess"
+            href="BusinessProcess_id-cc12492144c448889b18b279b07a9e33.xml#id-cc12492144c448889b18b279b07a9e33"/>
       </children>
       <archimateElement
           xsi:type="archimate:BusinessProcess"
@@ -483,59 +237,13 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-8154ebb7d1494485be4155763e3134ea"
-        targetConnections="id-1f0c3a49903f4b22829692c518e6cc95">
-      <features
-          name="labelExpression"
-          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-      <features
-          name="iconVisible"
-          value="2"/>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-8afca5d5962d40b8be948e43a19e52a9"
-          source="id-8154ebb7d1494485be4155763e3134ea"
-          target="id-ebab0047564448dcb5d64ac744c46378">
-        <archimateRelationship
-            xsi:type="archimate:CompositionRelationship"
-            href="CompositionRelationship_id-95159e02e30b474588f1b69e467ae0e3.xml#id-95159e02e30b474588f1b69e467ae0e3"/>
-      </sourceConnections>
-      <bounds
-          x="444"
-          y="48"
-          width="205"
-          height="121"/>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-ebab0047564448dcb5d64ac744c46378"
-          targetConnections="id-8afca5d5962d40b8be948e43a19e52a9 id-8d4aa7d7bdb5475fa64691be1ed9673f"
-          textPosition="1">
-        <features
-            name="labelExpression"
-            value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-        <features
-            name="iconVisible"
-            value="2"/>
-        <bounds
-            x="12"
-            y="48"
-            width="181"
-            height="55"/>
-        <archimateElement
-            xsi:type="archimate:BusinessProcess"
-            href="BusinessProcess_id-e777ce638f9b464fbedb8e2eb9dbd42d.xml#id-e777ce638f9b464fbedb8e2eb9dbd42d"/>
-      </children>
-      <archimateElement
-          xsi:type="archimate:BusinessProcess"
-          href="BusinessProcess_id-f9b2a17a26e84f049b0ce7dbb08bd208.xml#id-f9b2a17a26e84f049b0ce7dbb08bd208"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
         id="id-0fa4edde4e29435a90ac42521b6849ec"
-        targetConnections="id-a4c6b2390fdc48d39cc1619075466b95">
+        targetConnections="id-a4c6b2390fdc48d39cc1619075466b95"
+        font="1|Segoe UI|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+        fillColor="#ffe0c2">
       <features
           name="labelExpression"
-          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+          value="${property:Code}"/>
       <features
           name="iconVisible"
           value="2"/>
@@ -549,14 +257,15 @@
             href="CompositionRelationship_id-997e1647395b46b682636ebb955c58fc.xml#id-997e1647395b46b682636ebb955c58fc"/>
       </sourceConnections>
       <bounds
-          x="876"
+          x="1632"
           y="48"
-          width="205"
-          height="121"/>
+          width="289"
+          height="109"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-ade4c4b4a471455ab046033effcd1601"
-          targetConnections="id-b570691bd6b34c3bbe3114f5c121c29e id-cca74a2cd9f345a7a6562d4c77fc24c2"
+          targetConnections="id-b570691bd6b34c3bbe3114f5c121c29e id-cca74a2cd9f345a7a6562d4c77fc24c2 id-da4d7511a97248f798b76d5786bc2f97"
+          fillColor="#ffcc99"
           textPosition="1">
         <features
             name="labelExpression"
@@ -566,12 +275,106 @@
             value="2"/>
         <bounds
             x="12"
-            y="48"
-            width="181"
-            height="55"/>
+            y="36"
+            width="265"
+            height="61"/>
         <archimateElement
             xsi:type="archimate:BusinessProcess"
             href="BusinessProcess_id-c8fa037bb4b84ababc9828856d17e667.xml#id-c8fa037bb4b84ababc9828856d17e667"/>
+      </children>
+      <archimateElement
+          xsi:type="archimate:BusinessProcess"
+          href="BusinessProcess_id-f9b2a17a26e84f049b0ce7dbb08bd208.xml#id-f9b2a17a26e84f049b0ce7dbb08bd208"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-62f4eb29b7dc44c3b0d5c8eb329574ee"
+        targetConnections="id-5f80e009601c4f599cddfdd01548acdf"
+        font="1|Segoe UI|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+        fillColor="#ffe0c2">
+      <features
+          name="labelExpression"
+          value="${property:Code}"/>
+      <features
+          name="iconVisible"
+          value="2"/>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-d46d03e2ac2648bf9ce6f001340f039e"
+          source="id-62f4eb29b7dc44c3b0d5c8eb329574ee"
+          target="id-f710095949d44c8e98ab79457b552cbf">
+        <archimateRelationship
+            xsi:type="archimate:CompositionRelationship"
+            href="CompositionRelationship_id-5a4418fc77f140809119eb142553ad57.xml#id-5a4418fc77f140809119eb142553ad57"/>
+      </sourceConnections>
+      <bounds
+          x="336"
+          y="48"
+          width="289"
+          height="109"/>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-f710095949d44c8e98ab79457b552cbf"
+          targetConnections="id-d46d03e2ac2648bf9ce6f001340f039e id-fb967bbda7bb4b318c23878468f12098 id-d66eb6cfb9134215ae4ac991b848af39"
+          fillColor="#ffcc99"
+          textPosition="1">
+        <features
+            name="labelExpression"
+            value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+        <features
+            name="iconVisible"
+            value="2"/>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-a35865670a58478eb36f847d00c2cdb7"
+            source="id-f710095949d44c8e98ab79457b552cbf"
+            target="id-e89cdae687dc4209ba2cbe48822a4067">
+          <bendpoints
+              startY="-42"
+              endX="-648"
+              endY="-42"/>
+          <bendpoints
+              startX="648"
+              startY="-42"
+              endY="-42"/>
+          <archimateRelationship
+              xsi:type="archimate:TriggeringRelationship"
+              href="TriggeringRelationship_id-73aac4cf49384d878b6ef864f6bf0f7a.xml#id-73aac4cf49384d878b6ef864f6bf0f7a"/>
+        </sourceConnections>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-61547e978d2540d08ef90b59a9797e03"
+            source="id-f710095949d44c8e98ab79457b552cbf"
+            target="id-46bfa94013644cb1a197de35ee540bda">
+          <archimateRelationship
+              xsi:type="archimate:TriggeringRelationship"
+              href="TriggeringRelationship_id-3269ad0f24384d489e17f457a5d42f78.xml#id-3269ad0f24384d489e17f457a5d42f78"/>
+        </sourceConnections>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-da4d7511a97248f798b76d5786bc2f97"
+            source="id-f710095949d44c8e98ab79457b552cbf"
+            target="id-ade4c4b4a471455ab046033effcd1601">
+          <bendpoints
+              startY="-42"
+              endX="-1296"
+              endY="-42"/>
+          <bendpoints
+              startX="1296"
+              startY="-42"
+              endY="-42"/>
+          <archimateRelationship
+              xsi:type="archimate:TriggeringRelationship"
+              href="TriggeringRelationship_id-d9de47edd7de4e04880dd95536a0aedf.xml#id-d9de47edd7de4e04880dd95536a0aedf"/>
+        </sourceConnections>
+        <bounds
+            x="12"
+            y="36"
+            width="265"
+            height="61"/>
+        <archimateElement
+            xsi:type="archimate:BusinessProcess"
+            href="BusinessProcess_id-c9e74e0120d54b34abf6aae3713c01a0.xml#id-c9e74e0120d54b34abf6aae3713c01a0"/>
       </children>
       <archimateElement
           xsi:type="archimate:BusinessProcess"
@@ -583,177 +386,972 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-d5838f744b3e4791b13f76f919398636"
-      fillColor="#ffe0c2">
-    <features
-        name="labelExpression"
-        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+      id="id-5d935389bac445969d4c8bb4e849a3e4"
+      lineColor="#000000"
+      fillColor="#ffcc99">
     <features
         name="iconVisible"
         value="2"/>
+    <features
+        name="labelExpression"
+        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-bb6432c0ea784edab6292706a6062cea"
-        source="id-d5838f744b3e4791b13f76f919398636"
-        target="id-7fa58b2b48a44ed5836c0aeee47719c9">
+        id="id-831fd8ac1fa74c2f958a958dab1938a3"
+        source="id-5d935389bac445969d4c8bb4e849a3e4"
+        target="id-244d860a1b79492da73d3416e209ad7f">
       <archimateRelationship
-          xsi:type="archimate:CompositionRelationship"
-          href="CompositionRelationship_id-878900.xml#id-878900"/>
+          xsi:type="archimate:AccessRelationship"
+          href="AccessRelationship_id-60b8964d10494d31afe74d33a58ef094.xml#id-60b8964d10494d31afe74d33a58ef094"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-cca74a2cd9f345a7a6562d4c77fc24c2"
+        source="id-5d935389bac445969d4c8bb4e849a3e4"
+        target="id-ade4c4b4a471455ab046033effcd1601">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_id-fc94c15e1206447eb0e6964ea4c6e48f.xml#id-fc94c15e1206447eb0e6964ea4c6e48f"/>
     </sourceConnections>
     <bounds
-        x="456"
-        y="228"
-        width="205"
-        height="181"/>
+        x="1656"
+        y="216"
+        width="265"
+        height="85"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-7fa58b2b48a44ed5836c0aeee47719c9"
-        targetConnections="id-bb6432c0ea784edab6292706a6062cea"
-        fillColor="#ffcc99">
-      <features
-          name="labelExpression"
-          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+        id="id-244d860a1b79492da73d3416e209ad7f"
+        targetConnections="id-831fd8ac1fa74c2f958a958dab1938a3"
+        lineColor="#000000"
+        fillColor="#ffcc99"
+        textPosition="1">
       <features
           name="iconVisible"
           value="2"/>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-8666ad788b154cb5afaa452c5bc831f1"
-          source="id-7fa58b2b48a44ed5836c0aeee47719c9"
-          target="id-2e49d17017334e20bb22a80172a0da81">
-        <archimateRelationship
-            xsi:type="archimate:AccessRelationship"
-            href="AccessRelationship_id-5f4b9bd4d47b48fb92f44c7a37ba17d8.xml#id-5f4b9bd4d47b48fb92f44c7a37ba17d8"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-8d4aa7d7bdb5475fa64691be1ed9673f"
-          source="id-7fa58b2b48a44ed5836c0aeee47719c9"
-          target="id-ebab0047564448dcb5d64ac744c46378">
-        <archimateRelationship
-            xsi:type="archimate:ServingRelationship"
-            href="ServingRelationship_id-6edc495898f0473192b3ef25065f6001.xml#id-6edc495898f0473192b3ef25065f6001"/>
-      </sourceConnections>
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <bounds
           x="12"
-          y="72"
-          width="181"
-          height="97"/>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-2e49d17017334e20bb22a80172a0da81"
-          targetConnections="id-8666ad788b154cb5afaa452c5bc831f1"
-          fillColor="#ffcc99">
-        <features
-            name="labelExpression"
-            value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-        <features
-            name="iconVisible"
-            value="2"/>
-        <bounds
-            x="12"
-            y="60"
-            width="157"
-            height="25"/>
-        <archimateElement
-            xsi:type="archimate:BusinessObject"
-            href="BusinessObject_id-729676.xml#id-729676"/>
-      </children>
+          y="48"
+          width="241"
+          height="25"/>
       <archimateElement
-          xsi:type="archimate:BusinessFunction"
-          href="BusinessFunction_id-718383.xml#id-718383"/>
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-729667.xml#id-729667"/>
     </children>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
-        href="BusinessFunction_id-718173.xml#id-718173"/>
+        href="BusinessFunction_id-718338.xml#id-718338"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-83d7eef55a4a4e09b9a933ab2ba56238"
-      fillColor="#ffe0c2">
-    <features
-        name="labelExpression"
-        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+      id="id-d87a9fa0369b485cb1d0583150de7174"
+      lineColor="#000000"
+      fillColor="#e5f1d7">
     <features
         name="iconVisible"
         value="2"/>
+    <features
+        name="labelExpression"
+        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-5995e048f85c4e9882cbbd08e1ffdbd0"
-        source="id-83d7eef55a4a4e09b9a933ab2ba56238"
-        target="id-5d935389bac445969d4c8bb4e849a3e4">
+        id="id-e4f612ba33bb4bb4807d9320d83d70e3"
+        source="id-d87a9fa0369b485cb1d0583150de7174"
+        target="id-d0b87cc17ba740758cc79207fd0fab81">
       <archimateRelationship
-          xsi:type="archimate:CompositionRelationship"
-          href="CompositionRelationship_id-878938.xml#id-878938"/>
+          xsi:type="archimate:AccessRelationship"
+          href="AccessRelationship_id-4aa84cd953b14d5da886dfa4677e7136.xml#id-4aa84cd953b14d5da886dfa4677e7136"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-39276ae09f2c45e7b5ec05bc720d5ba1"
+        source="id-d87a9fa0369b485cb1d0583150de7174"
+        target="id-46bfa94013644cb1a197de35ee540bda">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_id-1df9c6f2fc434a72818d7529d1cd4e09.xml#id-1df9c6f2fc434a72818d7529d1cd4e09"/>
     </sourceConnections>
     <bounds
-        x="888"
-        y="228"
-        width="205"
-        height="181"/>
+        x="684"
+        y="216"
+        width="265"
+        height="85"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-5d935389bac445969d4c8bb4e849a3e4"
-        targetConnections="id-5995e048f85c4e9882cbbd08e1ffdbd0"
+        id="id-d0b87cc17ba740758cc79207fd0fab81"
+        targetConnections="id-e4f612ba33bb4bb4807d9320d83d70e3"
         lineColor="#000000"
-        fillColor="#ffcc99">
+        fillColor="#e5f1d7"
+        textPosition="1">
       <features
           name="iconVisible"
           value="2"/>
       <features
           name="labelExpression"
           value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-831fd8ac1fa74c2f958a958dab1938a3"
-          source="id-5d935389bac445969d4c8bb4e849a3e4"
-          target="id-244d860a1b79492da73d3416e209ad7f">
-        <archimateRelationship
-            xsi:type="archimate:AccessRelationship"
-            href="AccessRelationship_id-60b8964d10494d31afe74d33a58ef094.xml#id-60b8964d10494d31afe74d33a58ef094"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-cca74a2cd9f345a7a6562d4c77fc24c2"
-          source="id-5d935389bac445969d4c8bb4e849a3e4"
-          target="id-ade4c4b4a471455ab046033effcd1601">
-        <archimateRelationship
-            xsi:type="archimate:ServingRelationship"
-            href="ServingRelationship_id-fc94c15e1206447eb0e6964ea4c6e48f.xml#id-fc94c15e1206447eb0e6964ea4c6e48f"/>
-      </sourceConnections>
       <bounds
           x="12"
-          y="72"
-          width="181"
-          height="97"/>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-244d860a1b79492da73d3416e209ad7f"
-          targetConnections="id-831fd8ac1fa74c2f958a958dab1938a3"
-          lineColor="#000000"
-          fillColor="#ffcc99"
-          textPosition="1">
-        <features
-            name="iconVisible"
-            value="2"/>
-        <features
-            name="labelExpression"
-            value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-        <bounds
-            x="12"
-            y="60"
-            width="157"
-            height="25"/>
-        <archimateElement
-            xsi:type="archimate:BusinessObject"
-            href="BusinessObject_id-729667.xml#id-729667"/>
-      </children>
+          y="48"
+          width="241"
+          height="25"/>
       <archimateElement
-          xsi:type="archimate:BusinessFunction"
-          href="BusinessFunction_id-718338.xml#id-718338"/>
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-729651.xml#id-729651"/>
     </children>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
-        href="BusinessFunction_id-718173.xml#id-718173"/>
+        href="BusinessFunction_id-718342.xml#id-718342"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-9d8004c1772d45fa92052b7ea3be6f43"
+      targetConnections="id-84f96d18cba34672a88311bb32833db5 id-c64bcb936a4b47b8b1781585802a5d83"
+      lineColor="#000000"
+      fillColor="#edebf9">
+    <features
+        name="iconVisible"
+        value="2"/>
+    <features
+        name="labelExpression"
+        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-88cfffa9a17849e39b9ad5ba59a27c4c"
+        source="id-9d8004c1772d45fa92052b7ea3be6f43"
+        target="id-fa1eecab258c4704b41aea7437422802">
+      <archimateRelationship
+          xsi:type="archimate:AccessRelationship"
+          href="AccessRelationship_id-32cbdacc6eda46d485cf296ad9183ac0.xml#id-32cbdacc6eda46d485cf296ad9183ac0"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-50d7e5face904a43bbe0ceba31f31bfb"
+        source="id-9d8004c1772d45fa92052b7ea3be6f43"
+        target="id-76910a47937a481fad63610d53e6c22c">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_id-5d52fd9c9bdd44fb872182ba563567bf.xml#id-5d52fd9c9bdd44fb872182ba563567bf"/>
+    </sourceConnections>
+    <bounds
+        x="36"
+        y="216"
+        width="265"
+        height="85"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-fa1eecab258c4704b41aea7437422802"
+        targetConnections="id-88cfffa9a17849e39b9ad5ba59a27c4c"
+        lineColor="#000000"
+        fillColor="#edebf9"
+        textPosition="1">
+      <features
+          name="iconVisible"
+          value="2"/>
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+      <bounds
+          x="12"
+          y="48"
+          width="241"
+          height="25"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-729661.xml#id-729661"/>
+    </children>
+    <archimateElement
+        xsi:type="archimate:BusinessFunction"
+        href="BusinessFunction_id-718341.xml#id-718341"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-e812b2fd75a04fa9b735a014724a256e"
+      lineColor="#000000"
+      fillColor="#e5f1d7">
+    <features
+        name="iconVisible"
+        value="2"/>
+    <features
+        name="labelExpression"
+        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-8d936b68b369429d9b0164a07b4e968e"
+        source="id-e812b2fd75a04fa9b735a014724a256e"
+        target="id-d34039098ae54776b5d073d708af42f8">
+      <archimateRelationship
+          xsi:type="archimate:AccessRelationship"
+          href="AccessRelationship_id-260b7a9bc4304ceaaa8b386c83022aa6.xml#id-260b7a9bc4304ceaaa8b386c83022aa6"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-2e2256aad99f4a3c9119e2f24392076a"
+        source="id-e812b2fd75a04fa9b735a014724a256e"
+        target="id-e89cdae687dc4209ba2cbe48822a4067">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_id-f2f76e44b66a4f10be01d1bb2235556d.xml#id-f2f76e44b66a4f10be01d1bb2235556d"/>
+    </sourceConnections>
+    <bounds
+        x="1008"
+        y="216"
+        width="265"
+        height="85"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-d34039098ae54776b5d073d708af42f8"
+        targetConnections="id-8d936b68b369429d9b0164a07b4e968e"
+        lineColor="#000000"
+        fillColor="#e5f1d7"
+        textPosition="1">
+      <features
+          name="iconVisible"
+          value="2"/>
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+      <bounds
+          x="12"
+          y="48"
+          width="241"
+          height="25"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-729643.xml#id-729643"/>
+    </children>
+    <archimateElement
+        xsi:type="archimate:BusinessFunction"
+        href="BusinessFunction_id-711331.xml#id-711331"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-bc8130350923485faf6a2ce89bda774e"
+      lineColor="#000000"
+      fillColor="#e5f1d7">
+    <features
+        name="iconVisible"
+        value="2"/>
+    <features
+        name="labelExpression"
+        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-844e562a5295478c892a54b655b36006"
+        source="id-bc8130350923485faf6a2ce89bda774e"
+        target="id-7d98a16e43fa42f880852dcefaa360c4">
+      <archimateRelationship
+          xsi:type="archimate:AccessRelationship"
+          href="AccessRelationship_id-6e61750f4f9249e0bbe93bcb7b69503f.xml#id-6e61750f4f9249e0bbe93bcb7b69503f"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-d21e9cad8f384dacaabc475e05bac407"
+        source="id-bc8130350923485faf6a2ce89bda774e"
+        target="id-7d70ad5eb8f04ff7a5d3340dd57557f1">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_id-c6313ea045c74dd2847a6ef5c809ab10.xml#id-c6313ea045c74dd2847a6ef5c809ab10"/>
+    </sourceConnections>
+    <bounds
+        x="1332"
+        y="216"
+        width="265"
+        height="85"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-7d98a16e43fa42f880852dcefaa360c4"
+        targetConnections="id-844e562a5295478c892a54b655b36006"
+        lineColor="#000000"
+        fillColor="#e5f1d7"
+        textPosition="1">
+      <features
+          name="iconVisible"
+          value="2"/>
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+      <bounds
+          x="12"
+          y="48"
+          width="241"
+          height="25"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-729634.xml#id-729634"/>
+    </children>
+    <archimateElement
+        xsi:type="archimate:BusinessFunction"
+        href="BusinessFunction_id-711284.xml#id-711284"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-7e879e4ec49b419fb5afe2fe5e327fec"
+      targetConnections="id-af501a813cb040bda97446c5e8d6fedd"
+      lineColor="#000000"
+      fillColor="#ff7c80">
+    <features
+        name="iconVisible"
+        value="2"/>
+    <features
+        name="labelExpression"
+        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-554683d200ae4ad5bf06cffe13f7a1fe"
+        source="id-7e879e4ec49b419fb5afe2fe5e327fec"
+        target="id-dfe2c85362034b57ab7f64c8c413993f">
+      <archimateRelationship
+          xsi:type="archimate:AccessRelationship"
+          href="AccessRelationship_id-9c16357f67b64ee5acd3079b1fa07733.xml#id-9c16357f67b64ee5acd3079b1fa07733"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-7c2fb5d5e0e84045ac243c303eaac199"
+        source="id-7e879e4ec49b419fb5afe2fe5e327fec"
+        target="id-aab522f5d4404e109a2ede53d2f9df99">
+      <bendpoints
+          startX="144"
+          startY="-18"
+          endX="144"
+          endY="78"/>
+      <bendpoints
+          startX="144"
+          startY="-78"
+          endX="144"
+          endY="18"/>
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_id-5a4eca6bb5eb4b7b941c116c6d5ab4b1.xml#id-5a4eca6bb5eb4b7b941c116c6d5ab4b1"/>
+    </sourceConnections>
+    <bounds
+        x="36"
+        y="432"
+        width="265"
+        height="85"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-dfe2c85362034b57ab7f64c8c413993f"
+        targetConnections="id-554683d200ae4ad5bf06cffe13f7a1fe"
+        lineColor="#000000"
+        fillColor="#ff7c80"
+        textPosition="1">
+      <features
+          name="iconVisible"
+          value="2"/>
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+      <bounds
+          x="12"
+          y="48"
+          width="241"
+          height="25"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-729592.xml#id-729592"/>
+    </children>
+    <archimateElement
+        xsi:type="archimate:BusinessFunction"
+        href="BusinessFunction_id-711321.xml#id-711321"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-eec6d0577e2840ee9d5763e5a1a5f025"
+      lineColor="#000000"
+      fillColor="#ffcc99">
+    <features
+        name="iconVisible"
+        value="2"/>
+    <features
+        name="labelExpression"
+        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-d24fd6ea3d3c4f1fbbd8b73dc981c5db"
+        source="id-eec6d0577e2840ee9d5763e5a1a5f025"
+        target="id-3902252716e44c3f9762dd44241549da">
+      <archimateRelationship
+          xsi:type="archimate:AccessRelationship"
+          href="AccessRelationship_id-e304578ba5794f558a2173ff359d21ee.xml#id-e304578ba5794f558a2173ff359d21ee"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-af501a813cb040bda97446c5e8d6fedd"
+        source="id-eec6d0577e2840ee9d5763e5a1a5f025"
+        target="id-7e879e4ec49b419fb5afe2fe5e327fec">
+      <bendpoints
+          startX="144"
+          startY="-18"
+          endX="144"
+          endY="78"/>
+      <bendpoints
+          startX="144"
+          startY="-78"
+          endX="144"
+          endY="18"/>
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_id-a393e23313d547a2837f5857f8ee4a5e.xml#id-a393e23313d547a2837f5857f8ee4a5e"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-84f96d18cba34672a88311bb32833db5"
+        lineColor="#000000"
+        source="id-eec6d0577e2840ee9d5763e5a1a5f025"
+        target="id-9d8004c1772d45fa92052b7ea3be6f43">
+      <bendpoints
+          startX="-144"
+          startY="-18"
+          endX="-144"
+          endY="294"/>
+      <bendpoints
+          startX="-144"
+          startY="-294"
+          endX="-144"
+          endY="18"/>
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_id-0acd1a77857e4318816c384ad86381c0.xml#id-0acd1a77857e4318816c384ad86381c0"/>
+    </sourceConnections>
+    <bounds
+        x="36"
+        y="528"
+        width="265"
+        height="85"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-3902252716e44c3f9762dd44241549da"
+        targetConnections="id-d24fd6ea3d3c4f1fbbd8b73dc981c5db"
+        lineColor="#000000"
+        fillColor="#ffcc99"
+        textPosition="1">
+      <features
+          name="iconVisible"
+          value="2"/>
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+      <bounds
+          x="12"
+          y="48"
+          width="241"
+          height="25"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-729684.xml#id-729684"/>
+    </children>
+    <archimateElement
+        xsi:type="archimate:BusinessFunction"
+        href="BusinessFunction_id-718345.xml#id-718345"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-5e9566c4e2444eca80758efaeea07464"
+      lineColor="#000000"
+      fillColor="#ffcc99">
+    <features
+        name="iconVisible"
+        value="2"/>
+    <features
+        name="labelExpression"
+        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-75d7e9c076504b4e98867321108a8623"
+        source="id-5e9566c4e2444eca80758efaeea07464"
+        target="id-167ace9d8a254935b92297733cfc48ef">
+      <archimateRelationship
+          xsi:type="archimate:AccessRelationship"
+          href="AccessRelationship_id-e304578ba5794f558a2173ff359d21ee.xml#id-e304578ba5794f558a2173ff359d21ee"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-e830c8afe5644ee486c0193479b8e14a"
+        source="id-5e9566c4e2444eca80758efaeea07464"
+        target="id-01dc26f41c6347e0ac4184224f653e45">
+      <bendpoints
+          startX="-144"
+          startY="-18"
+          endX="-144"
+          endY="102"/>
+      <bendpoints
+          startX="-144"
+          startY="-102"
+          endX="-144"
+          endY="18"/>
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_id-81593f67fe62488c9990082a401d5c9d.xml#id-81593f67fe62488c9990082a401d5c9d"/>
+    </sourceConnections>
+    <bounds
+        x="360"
+        y="336"
+        width="265"
+        height="85"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-167ace9d8a254935b92297733cfc48ef"
+        targetConnections="id-75d7e9c076504b4e98867321108a8623"
+        lineColor="#000000"
+        fillColor="#ffcc99"
+        textPosition="1">
+      <features
+          name="iconVisible"
+          value="2"/>
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+      <bounds
+          x="12"
+          y="48"
+          width="241"
+          height="25"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-729684.xml#id-729684"/>
+    </children>
+    <archimateElement
+        xsi:type="archimate:BusinessFunction"
+        href="BusinessFunction_id-718345.xml#id-718345"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-01dc26f41c6347e0ac4184224f653e45"
+      targetConnections="id-e830c8afe5644ee486c0193479b8e14a"
+      lineColor="#000000"
+      fillColor="#ffcc99">
+    <features
+        name="iconVisible"
+        value="2"/>
+    <features
+        name="labelExpression"
+        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-cd726ddd98e34ce590f740f4d7a78425"
+        source="id-01dc26f41c6347e0ac4184224f653e45"
+        target="id-6da3627a6e5e49838c7d96b5ebfc68ee">
+      <archimateRelationship
+          xsi:type="archimate:AccessRelationship"
+          href="AccessRelationship_id-5f4b9bd4d47b48fb92f44c7a37ba17d8.xml#id-5f4b9bd4d47b48fb92f44c7a37ba17d8"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-fb967bbda7bb4b318c23878468f12098"
+        source="id-01dc26f41c6347e0ac4184224f653e45"
+        target="id-f710095949d44c8e98ab79457b552cbf">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_id-c5ff35f7cc1a4f5fa6a4fb90f32f1343.xml#id-c5ff35f7cc1a4f5fa6a4fb90f32f1343"/>
+    </sourceConnections>
+    <bounds
+        x="360"
+        y="216"
+        width="265"
+        height="85"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-6da3627a6e5e49838c7d96b5ebfc68ee"
+        targetConnections="id-cd726ddd98e34ce590f740f4d7a78425"
+        lineColor="#000000"
+        fillColor="#ffcc99"
+        textPosition="1">
+      <features
+          name="iconVisible"
+          value="2"/>
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+      <bounds
+          x="12"
+          y="48"
+          width="241"
+          height="25"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-729676.xml#id-729676"/>
+    </children>
+    <archimateElement
+        xsi:type="archimate:BusinessFunction"
+        href="BusinessFunction_id-718383.xml#id-718383"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-aab522f5d4404e109a2ede53d2f9df99"
+      targetConnections="id-7c2fb5d5e0e84045ac243c303eaac199"
+      lineColor="#000000"
+      fillColor="#edebf9">
+    <features
+        name="iconVisible"
+        value="2"/>
+    <features
+        name="labelExpression"
+        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-9ab4ffa4e0ea4d05bf8c6704d5b2c9c9"
+        source="id-aab522f5d4404e109a2ede53d2f9df99"
+        target="id-5b8ed4f9d3914f8fa0369628a3fa13c2">
+      <archimateRelationship
+          xsi:type="archimate:AccessRelationship"
+          href="AccessRelationship_id-f6ab90ac6e2b4f79a20c5b86f777eff0.xml#id-f6ab90ac6e2b4f79a20c5b86f777eff0"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-c64bcb936a4b47b8b1781585802a5d83"
+        source="id-aab522f5d4404e109a2ede53d2f9df99"
+        target="id-9d8004c1772d45fa92052b7ea3be6f43">
+      <bendpoints
+          startX="-144"
+          startY="-18"
+          endX="-144"
+          endY="102"/>
+      <bendpoints
+          startX="-144"
+          startY="-102"
+          endX="-144"
+          endY="18"/>
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_id-c521b7b36bc043e093575bd1247cbff2.xml#id-c521b7b36bc043e093575bd1247cbff2"/>
+    </sourceConnections>
+    <bounds
+        x="36"
+        y="336"
+        width="265"
+        height="85"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-5b8ed4f9d3914f8fa0369628a3fa13c2"
+        targetConnections="id-9ab4ffa4e0ea4d05bf8c6704d5b2c9c9"
+        font="1|Segoe UI|9.0|2|WINDOWS|1|-12|0|0|0|400|-1|0|0|0|3|2|1|34|Segoe UI"
+        lineColor="#000000"
+        fillColor="#edebf9"
+        textPosition="1">
+      <features
+          name="iconVisible"
+          value="2"/>
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+      <bounds
+          x="12"
+          y="48"
+          width="241"
+          height="25"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-729661.xml#id-729661"/>
+    </children>
+    <archimateElement
+        xsi:type="archimate:BusinessFunction"
+        href="BusinessFunction_id-711337.xml#id-711337"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-aa69fb92283443e68ffc840090d38565"
+      lineColor="#000000"
+      fillColor="#ffcc99"
+      textPosition="1">
+    <features
+        name="iconVisible"
+        value="2"/>
+    <features
+        name="labelExpression"
+        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-39fe24c5c72b4c9ea1a08a4faf8fab1c"
+        textPosition="0"
+        source="id-aa69fb92283443e68ffc840090d38565"
+        target="id-96a2ab6af4be48628235cd5c9d83dbaf">
+      <bendpoints
+          startY="-36"
+          endX="1296"
+          endY="-36"/>
+      <bendpoints
+          startX="-1296"
+          startY="-36"
+          endY="-36"/>
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-d8e1e517f64d4cffb5de2a0c58b51226.xml#id-d8e1e517f64d4cffb5de2a0c58b51226"/>
+    </sourceConnections>
+    <bounds
+        x="1704"
+        y="672"
+        width="169"
+        height="49"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-729667.xml#id-729667"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-028596db4f9c461ab2101d6f301af794"
+      lineColor="#000000"
+      fillColor="#e5f1d7"
+      textPosition="1">
+    <features
+        name="iconVisible"
+        value="2"/>
+    <features
+        name="labelExpression"
+        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-0426c6b47e484acaa4f01860a43032ec"
+        source="id-028596db4f9c461ab2101d6f301af794"
+        target="id-0f55497f78ae4fcc8ca74ef15a5a3dfd">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-999da48b893946ef993610abc68dfc44.xml#id-999da48b893946ef993610abc68dfc44"/>
+    </sourceConnections>
+    <bounds
+        x="1380"
+        y="672"
+        width="169"
+        height="49"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-729634.xml#id-729634"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-0f55497f78ae4fcc8ca74ef15a5a3dfd"
+      targetConnections="id-0426c6b47e484acaa4f01860a43032ec"
+      lineColor="#000000"
+      fillColor="#e5f1d7"
+      textPosition="1">
+    <features
+        name="iconVisible"
+        value="2"/>
+    <features
+        name="labelExpression"
+        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-4d6b6153536e455d9116782664411f6b"
+        textPosition="0"
+        source="id-0f55497f78ae4fcc8ca74ef15a5a3dfd"
+        target="id-96a2ab6af4be48628235cd5c9d83dbaf">
+      <bendpoints
+          startY="-36"
+          endX="648"
+          endY="-36"/>
+      <bendpoints
+          startX="-648"
+          startY="-36"
+          endY="-36"/>
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-7ee402632716464e8f2b53296dce435a.xml#id-7ee402632716464e8f2b53296dce435a"/>
+    </sourceConnections>
+    <bounds
+        x="1056"
+        y="672"
+        width="169"
+        height="49"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-729643.xml#id-729643"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-5994844753ff4173960b9ee032983373"
+      lineColor="#000000"
+      fillColor="#e5f1d7"
+      textPosition="1">
+    <features
+        name="iconVisible"
+        value="2"/>
+    <features
+        name="labelExpression"
+        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-554de7c8171548e49be1d22664419f4e"
+        source="id-5994844753ff4173960b9ee032983373"
+        target="id-96a2ab6af4be48628235cd5c9d83dbaf">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-378327339d75440692c5c361e273d7dd.xml#id-378327339d75440692c5c361e273d7dd"/>
+    </sourceConnections>
+    <bounds
+        x="732"
+        y="672"
+        width="169"
+        height="49"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-729651.xml#id-729651"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-aac4e32fcefb4aa8b76a3df4909f07d8"
+      targetConnections="id-5ce92c09335d431fa65eb3e43dc38c85"
+      lineColor="#000000"
+      fillColor="#ffcc99"
+      textPosition="1">
+    <features
+        name="iconVisible"
+        value="2"/>
+    <features
+        name="labelExpression"
+        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+    <bounds
+        x="408"
+        y="792"
+        width="169"
+        height="49"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-729684.xml#id-729684"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-96a2ab6af4be48628235cd5c9d83dbaf"
+      targetConnections="id-554de7c8171548e49be1d22664419f4e id-4d6b6153536e455d9116782664411f6b id-39fe24c5c72b4c9ea1a08a4faf8fab1c"
+      lineColor="#000000"
+      fillColor="#ffcc99"
+      textPosition="1">
+    <features
+        name="iconVisible"
+        value="2"/>
+    <features
+        name="labelExpression"
+        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-5ce92c09335d431fa65eb3e43dc38c85"
+        source="id-96a2ab6af4be48628235cd5c9d83dbaf"
+        target="id-aac4e32fcefb4aa8b76a3df4909f07d8">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-31077e76cd804957991dcb0393f4471e.xml#id-31077e76cd804957991dcb0393f4471e"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-b63c8efc91534b0ba34dd168a1c5a88a"
+        source="id-96a2ab6af4be48628235cd5c9d83dbaf"
+        target="id-75614a2790524ad191830b988aa2fae0">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-6d4a5936ba7f4860844e9692882c5a58.xml#id-6d4a5936ba7f4860844e9692882c5a58"/>
+    </sourceConnections>
+    <bounds
+        x="408"
+        y="672"
+        width="169"
+        height="49"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-729676.xml#id-729676"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-75614a2790524ad191830b988aa2fae0"
+      targetConnections="id-b63c8efc91534b0ba34dd168a1c5a88a"
+      lineColor="#000000"
+      fillColor="#edebf9"
+      textPosition="1">
+    <features
+        name="iconVisible"
+        value="2"/>
+    <features
+        name="labelExpression"
+        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-bcedf175b5234e1aa6b60beca2311bb6"
+        source="id-75614a2790524ad191830b988aa2fae0"
+        target="id-ccac09b01f2a46b2ac39e831defbeb97">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-137c3eed3825478595486903dba52de2.xml#id-137c3eed3825478595486903dba52de2"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-8111629ab0474f5d8d7d8542973d6a92"
+        textPosition="2"
+        source="id-75614a2790524ad191830b988aa2fae0"
+        target="id-95a1583595974e8e9433d61d3d739063">
+      <bendpoints
+          startX="-96"
+          startY="12"
+          endX="-96"
+          endY="-228"/>
+      <bendpoints
+          startX="-96"
+          startY="228"
+          endX="-96"
+          endY="-12"/>
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-75fe8af13a4040608444a2a7602cb6d0.xml#id-75fe8af13a4040608444a2a7602cb6d0"/>
+    </sourceConnections>
+    <bounds
+        x="84"
+        y="672"
+        width="169"
+        height="49"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-729661.xml#id-729661"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-ccac09b01f2a46b2ac39e831defbeb97"
+      targetConnections="id-bcedf175b5234e1aa6b60beca2311bb6"
+      lineColor="#000000"
+      fillColor="#ff7c80"
+      textPosition="1">
+    <features
+        name="iconVisible"
+        value="2"/>
+    <features
+        name="labelExpression"
+        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-ef6687fc3b5d4680a1c78fe462607755"
+        source="id-ccac09b01f2a46b2ac39e831defbeb97"
+        target="id-95a1583595974e8e9433d61d3d739063">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-b7dfecb8eefe4086be86c285e6aa3675.xml#id-b7dfecb8eefe4086be86c285e6aa3675"/>
+    </sourceConnections>
+    <bounds
+        x="84"
+        y="792"
+        width="169"
+        height="49"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-729592.xml#id-729592"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-95a1583595974e8e9433d61d3d739063"
+      targetConnections="id-ef6687fc3b5d4680a1c78fe462607755 id-8111629ab0474f5d8d7d8542973d6a92"
+      lineColor="#000000"
+      fillColor="#ffcc99"
+      textPosition="1">
+    <features
+        name="iconVisible"
+        value="2"/>
+    <features
+        name="labelExpression"
+        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+    <bounds
+        x="84"
+        y="912"
+        width="169"
+        height="49"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-729684.xml#id-729684"/>
   </children>
 </archimate:ArchimateDiagramModel>
