@@ -219,7 +219,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-a2192bb5d254424e9caf3dbc39bde24e"
-        targetConnections="id-cd61cbb3934441e7b56304a10d7fa4d3"
+        targetConnections="id-cd61cbb3934441e7b56304a10d7fa4d3 id-d0be1ec927bb44c0a88fb569467eca57"
         fillColor="#ffffff"
         textPosition="1">
       <features
@@ -402,6 +402,25 @@
       <features
           name="labelExpression"
           value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-d0be1ec927bb44c0a88fb569467eca57"
+          source="id-97eff4298b064cb5babfb8d143f76823"
+          target="id-a2192bb5d254424e9caf3dbc39bde24e">
+        <bendpoints
+            startX="-138"
+            startY="42"
+            endX="534"
+            endY="42"/>
+        <bendpoints
+            startX="-318"
+            startY="42"
+            endX="354"
+            endY="42"/>
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-330f67bdaa34463cbad8c7571d7522c3.xml#id-330f67bdaa34463cbad8c7571d7522c3"/>
+      </sourceConnections>
       <bounds
           x="12"
           y="36"
