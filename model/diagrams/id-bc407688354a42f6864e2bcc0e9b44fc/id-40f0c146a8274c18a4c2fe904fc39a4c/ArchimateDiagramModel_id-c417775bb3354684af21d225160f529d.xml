@@ -7,6 +7,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-cbef1ea75d8c4558a5ec3a2db42ddc0b"
       font="1|Segoe UI|11.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      lineColor="#5c5c5c"
       fillColor="#ffffff">
     <features
         name="labelExpression"
@@ -85,15 +86,6 @@
           value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-2a1084b9d9fb473789ce96c69275cfd3"
-          source="id-4ba12695723b4abe9729e27123c7555e"
-          target="id-c2ac148067b94935aa0d2f54e93fd6c8">
-        <archimateRelationship
-            xsi:type="archimate:CompositionRelationship"
-            href="CompositionRelationship_id-872512.xml#id-872512"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-c41c041a1ac14e2dad4fc202bd39a3e9"
           source="id-4ba12695723b4abe9729e27123c7555e"
           target="id-973ed8409ac242d799ac7ee27368993e">
@@ -118,6 +110,15 @@
         <archimateRelationship
             xsi:type="archimate:CompositionRelationship"
             href="CompositionRelationship_id-872626.xml#id-872626"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-2a1084b9d9fb473789ce96c69275cfd3"
+          source="id-4ba12695723b4abe9729e27123c7555e"
+          target="id-c2ac148067b94935aa0d2f54e93fd6c8">
+        <archimateRelationship
+            xsi:type="archimate:CompositionRelationship"
+            href="CompositionRelationship_id-872512.xml#id-872512"/>
       </sourceConnections>
       <bounds
           x="12"
@@ -799,6 +800,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-304eff92b2d343eeb4df6fa3dffba3bd"
       font="1|Segoe UI|11.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      lineColor="#5c5c5c"
       fillColor="#ffffff">
     <features
         name="labelExpression"

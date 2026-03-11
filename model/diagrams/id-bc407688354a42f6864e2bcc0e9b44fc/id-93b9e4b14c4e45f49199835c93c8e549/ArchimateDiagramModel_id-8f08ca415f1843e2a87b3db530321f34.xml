@@ -57,7 +57,7 @@
     </sourceConnections>
     <bounds
         x="372"
-        y="12"
+        y="72"
         width="169"
         height="49"/>
     <archimateElement
@@ -78,7 +78,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="732"
-        y="12"
+        y="72"
         width="169"
         height="49"/>
     <archimateElement
@@ -99,7 +99,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="12"
-        y="72"
+        y="132"
         width="169"
         height="49"/>
     <archimateElement
@@ -120,7 +120,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="12"
-        y="12"
+        y="72"
         width="169"
         height="49"/>
     <archimateElement
@@ -158,7 +158,7 @@
     </sourceConnections>
     <bounds
         x="732"
-        y="192"
+        y="252"
         width="169"
         height="49"/>
     <archimateElement
@@ -196,7 +196,7 @@
     </sourceConnections>
     <bounds
         x="732"
-        y="132"
+        y="192"
         width="169"
         height="49"/>
     <archimateElement
@@ -234,7 +234,7 @@
     </sourceConnections>
     <bounds
         x="732"
-        y="72"
+        y="132"
         width="169"
         height="49"/>
     <archimateElement
@@ -272,11 +272,33 @@
     </sourceConnections>
     <bounds
         x="12"
-        y="132"
+        y="192"
         width="169"
         height="49"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-468996.xml#id-468996"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-7c5aa06500e84bd3a9913591ec1b22bc"
+      font="1|Segoe UI|11.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      lineColor="#000000"
+      fillColor="#fbfbfd"
+      textPosition="1">
+    <features
+        name="iconVisible"
+        value="2"/>
+    <features
+        name="labelExpression"
+        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+    <bounds
+        x="12"
+        y="12"
+        width="889"
+        height="37"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-729659.xml#id-729659"/>
   </children>
 </archimate:ArchimateDiagramModel>

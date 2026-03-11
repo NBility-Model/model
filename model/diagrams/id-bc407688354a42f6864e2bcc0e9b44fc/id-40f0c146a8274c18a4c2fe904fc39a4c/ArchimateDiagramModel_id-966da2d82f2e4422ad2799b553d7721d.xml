@@ -4,21 +4,10 @@
     name="N2 functies"
     id="id-966da2d82f2e4422ad2799b553d7721d">
   <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-3b27296255db48498394051e25579ef8"
-      textAlignment="1"
-      fillColor="#80ffff"
-      content="L2 Meting overtreedt een COVO-regel">
-    <bounds
-        x="924"
-        y="504"
-        width="289"
-        height="37"/>
-  </children>
-  <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-fcc28403413849588a2c61770a4936bb"
       font="1|Segoe UI|11.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      lineColor="#5c5c5c"
       fillColor="#ffffff">
     <features
         name="labelExpression"
@@ -141,7 +130,7 @@
         x="12"
         y="12"
         width="1813"
-        height="481"/>
+        height="529"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-1f9fee722b0a4b7aad2f4b1d5543e409"
@@ -155,28 +144,6 @@
       <features
           name="labelExpression"
           value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-b1979bb8969247d7b7e32dc517d8b3d6"
-          source="id-1f9fee722b0a4b7aad2f4b1d5543e409"
-          target="id-28a02614dbc9466e9134b55a97382dfc">
-        <features
-            name="labelExpression"
-            value="${property:Code}. ${name}"/>
-        <bendpoints
-            startX="-156"
-            startY="-192"
-            endX="-144"
-            endY="-30"/>
-        <bendpoints
-            startX="-156"
-            startY="-144"
-            endX="-144"
-            endY="18"/>
-        <archimateRelationship
-            xsi:type="archimate:CompositionRelationship"
-            href="CompositionRelationship_id-878804.xml#id-878804"/>
-      </sourceConnections>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-25ee19a4ca1448bd89f386de8d89c149"
@@ -234,11 +201,33 @@
             xsi:type="archimate:CompositionRelationship"
             href="CompositionRelationship_id-878512.xml#id-878512"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-b1979bb8969247d7b7e32dc517d8b3d6"
+          source="id-1f9fee722b0a4b7aad2f4b1d5543e409"
+          target="id-28a02614dbc9466e9134b55a97382dfc">
+        <features
+            name="labelExpression"
+            value="${property:Code}. ${name}"/>
+        <bendpoints
+            startX="-156"
+            startY="-192"
+            endX="-144"
+            endY="-30"/>
+        <bendpoints
+            startX="-156"
+            startY="-144"
+            endX="-144"
+            endY="18"/>
+        <archimateRelationship
+            xsi:type="archimate:CompositionRelationship"
+            href="CompositionRelationship_id-878804.xml#id-878804"/>
+      </sourceConnections>
       <bounds
           x="12"
           y="36"
           width="289"
-          height="433"/>
+          height="481"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-ffae771b17374c19ba3c70b40ccc4b8d"
@@ -262,9 +251,9 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="144"
+            y="156"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-2a8526eca23b4367a0bd681badfd2d87"
@@ -280,7 +269,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -314,9 +303,9 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="336"
+            y="372"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-412c6f1caccd4de6a36d5c2d6c295872"
@@ -332,7 +321,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -366,9 +355,9 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="240"
+            y="264"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-c19d3368e20e4e9988905e294fba705b"
@@ -384,7 +373,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -420,7 +409,7 @@
             x="12"
             y="48"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-557f36dd7dc14e2684b945b28ab6f305"
@@ -436,7 +425,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -544,7 +533,7 @@
           x="1212"
           y="36"
           width="289"
-          height="433"/>
+          height="481"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-520b144c807a494fab8bdd3c65a7a6fa"
@@ -570,7 +559,7 @@
             x="12"
             y="48"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-537d4dc6350249b1a99fc523ba727dad"
@@ -586,7 +575,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -620,9 +609,9 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="144"
+            y="156"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-652ffdd0e0e0460a8b9f8c905784fd22"
@@ -638,7 +627,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -672,9 +661,9 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="240"
+            y="264"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-163616ab10c04a7cb7665e1119dfcabb"
@@ -690,7 +679,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -724,9 +713,9 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="336"
+            y="372"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-a3bd361776304eb0ac5fd151b3c88676"
@@ -742,7 +731,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -831,7 +820,7 @@
           x="612"
           y="36"
           width="289"
-          height="433"/>
+          height="481"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-e901c8fd91a84e2e94928e1a769088ed"
@@ -857,7 +846,7 @@
             x="12"
             y="48"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-053930b6ff864e98a914d5f90d968abc"
@@ -873,7 +862,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -907,9 +896,9 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="144"
+            y="156"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-89c0ae1a54a346d09a724d334a486f6f"
@@ -925,7 +914,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -959,9 +948,9 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="240"
+            y="264"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-22f59ecaf0fb4b9a8e552cbeb4efb357"
@@ -977,7 +966,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -1085,7 +1074,7 @@
           x="1512"
           y="36"
           width="289"
-          height="433"/>
+          height="481"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-cd7d6718c3fd4c45b769250b9872a96e"
@@ -1111,7 +1100,7 @@
             x="12"
             y="48"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-4b69b779af744c5e982aea9f61f1ec82"
@@ -1127,7 +1116,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -1161,9 +1150,9 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="144"
+            y="156"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-7c99fff7220a407da01e7ec43a1efc8b"
@@ -1179,7 +1168,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -1213,9 +1202,9 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="240"
+            y="264"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-24ef2b7d057848db9d1539506829aa08"
@@ -1231,7 +1220,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -1265,9 +1254,9 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="336"
+            y="372"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-4d2bd7b286b947da92d1a2a844035882"
@@ -1283,7 +1272,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -1372,7 +1361,7 @@
           x="312"
           y="36"
           width="289"
-          height="433"/>
+          height="481"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-b9914abc028c41af8ca4ff711f24951a"
@@ -1398,7 +1387,7 @@
             x="12"
             y="48"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-ed1578e5abda46589dc99965ecfb2e3c"
@@ -1414,7 +1403,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -1448,9 +1437,9 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="144"
+            y="156"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-5ed22c4abff9484c9e88f2fdcc291b5e"
@@ -1466,7 +1455,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -1500,9 +1489,9 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="240"
+            y="264"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-6cd77d1b89964bd98010edd9f4fd1ff5"
@@ -1518,7 +1507,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -1588,7 +1577,7 @@
           x="912"
           y="36"
           width="289"
-          height="433"/>
+          height="481"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-22ba323ecc314d5eadf2f7e6609b9924"
@@ -1614,7 +1603,7 @@
             x="12"
             y="48"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-2941151bce594f69871897341ee68aa6"
@@ -1631,7 +1620,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -1665,9 +1654,9 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="144"
+            y="156"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-8d9d6575b9504de4832ee940d5fa144e"
@@ -1683,7 +1672,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -1706,6 +1695,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-2ed814ddeef747ec8a6e26a25b229e72"
       font="1|Segoe UI|11.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      lineColor="#5c5c5c"
       fillColor="#ffffff">
     <features
         name="labelExpression"
@@ -1847,7 +1837,7 @@
         x="1836"
         y="12"
         width="2113"
-        height="481"/>
+        height="529"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-d8b9aa2a24894078b01c5b428b303828"
@@ -1903,7 +1893,7 @@
           x="312"
           y="36"
           width="289"
-          height="433"/>
+          height="481"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-547902c0c6eb4fb78fc9b7ae3487f2a3"
@@ -1930,7 +1920,7 @@
             x="12"
             y="48"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-92b9168098994cc48733e9fcfe0f28e4"
@@ -1946,7 +1936,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -1981,9 +1971,9 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="144"
+            y="156"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-2aea5035807f4c5487b86c61208b0e5b"
@@ -1999,7 +1989,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -2069,7 +2059,7 @@
           x="1212"
           y="36"
           width="289"
-          height="433"/>
+          height="481"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-7007342417e541a79969a41a40c5fb10"
@@ -2096,7 +2086,7 @@
             x="12"
             y="48"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-21482e4ee1074fe6a6dbfd40c90dbee8"
@@ -2112,7 +2102,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -2147,9 +2137,9 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="144"
+            y="156"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-036a393474e94ffa8794e4178f053828"
@@ -2165,7 +2155,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -2254,7 +2244,7 @@
           x="1812"
           y="36"
           width="289"
-          height="433"/>
+          height="481"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-6e75705314804a8494ea7568e7a907ca"
@@ -2281,7 +2271,7 @@
             x="12"
             y="48"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-86c7be590c894781a4b028dde03dc349"
@@ -2297,7 +2287,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -2332,9 +2322,9 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="144"
+            y="156"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-3e2a02cb8fd445e885872b66fff0dec9"
@@ -2350,7 +2340,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -2385,9 +2375,9 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="240"
+            y="264"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-88a1ea759f574b7bb99cceb7298d5411"
@@ -2403,7 +2393,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -2511,7 +2501,7 @@
           x="912"
           y="36"
           width="289"
-          height="433"/>
+          height="481"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-fda5d1e581d14d92882391913c0a8b93"
@@ -2538,7 +2528,7 @@
             x="12"
             y="48"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-666f874d1e384962a4a2ec077aec4099"
@@ -2554,7 +2544,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -2589,9 +2579,9 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="144"
+            y="156"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-551d228eccc34f5a97e3e9688e095ad1"
@@ -2607,7 +2597,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -2642,9 +2632,9 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="240"
+            y="264"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-eeb38677f1a848f2bfbd80efcb5989a7"
@@ -2660,7 +2650,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -2695,9 +2685,9 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="336"
+            y="372"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-20a4dcb6212441599bd0ab1a335811e8"
@@ -2713,7 +2703,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -2821,7 +2811,7 @@
           x="12"
           y="36"
           width="289"
-          height="433"/>
+          height="481"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-a2d6bf5736044905b65ed4abe6e914e6"
@@ -2847,7 +2837,7 @@
             x="12"
             y="48"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-1a9d54323d054e7c833d4d926a38a8d3"
@@ -2863,7 +2853,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -2897,9 +2887,9 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="144"
+            y="156"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-b98fd6f1b4a74ca4afa0e5e325130290"
@@ -2915,7 +2905,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -2949,9 +2939,9 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="240"
+            y="264"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-a2915b21b97a4ee0a1d068a34bb32bb5"
@@ -2967,7 +2957,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -3001,9 +2991,9 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="336"
+            y="372"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-9ac9b4e7b44d42fdb4eaf02b838c9c76"
@@ -3019,7 +3009,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -3127,7 +3117,7 @@
           x="612"
           y="36"
           width="289"
-          height="433"/>
+          height="481"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-a384cf0488934b7db30e4d1c28b4c982"
@@ -3154,7 +3144,7 @@
             x="12"
             y="48"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-1a4cf9fce6924b8d88ed127e31cd6e36"
@@ -3170,7 +3160,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -3205,9 +3195,9 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="144"
+            y="156"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-5ba8740a1dec4b3698fa8b1abacf112d"
@@ -3223,7 +3213,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -3258,9 +3248,9 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="240"
+            y="264"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-188f8e589444482da0b6a74f3a197d3d"
@@ -3276,7 +3266,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -3311,9 +3301,9 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="336"
+            y="372"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-4f91dd697dd240e992ef02649931fb0c"
@@ -3329,7 +3319,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -3399,7 +3389,7 @@
           x="1512"
           y="36"
           width="289"
-          height="433"/>
+          height="481"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-a94a1817e33d4d1d8748ccaf99e9cbe0"
@@ -3426,7 +3416,7 @@
             x="12"
             y="48"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-558bf12cf8774735b92cbfcbaa2c91aa"
@@ -3442,7 +3432,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement
@@ -3477,9 +3467,9 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="144"
+            y="156"
             width="265"
-            height="85"/>
+            height="97"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-ff6d1f314cff4d339fcf16b80cbc93f0"
@@ -3495,7 +3485,7 @@
               value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
           <bounds
               x="12"
-              y="48"
+              y="60"
               width="241"
               height="25"/>
           <archimateElement

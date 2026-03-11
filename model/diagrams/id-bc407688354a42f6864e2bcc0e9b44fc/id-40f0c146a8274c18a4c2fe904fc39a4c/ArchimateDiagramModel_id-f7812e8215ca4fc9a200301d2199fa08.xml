@@ -30,7 +30,7 @@
     </sourceConnections>
     <bounds
         x="732"
-        y="132"
+        y="192"
         width="169"
         height="49"/>
     <archimateElement
@@ -75,7 +75,7 @@
     </sourceConnections>
     <bounds
         x="372"
-        y="132"
+        y="192"
         width="169"
         height="49"/>
     <archimateElement
@@ -108,7 +108,7 @@
     </sourceConnections>
     <bounds
         x="732"
-        y="252"
+        y="312"
         width="169"
         height="49"/>
     <archimateElement
@@ -141,7 +141,7 @@
     </sourceConnections>
     <bounds
         x="12"
-        y="612"
+        y="672"
         width="349"
         height="49"/>
     <archimateElement
@@ -175,7 +175,7 @@
     </sourceConnections>
     <bounds
         x="552"
-        y="132"
+        y="192"
         width="169"
         height="49"/>
     <archimateElement
@@ -197,7 +197,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="12"
-        y="252"
+        y="312"
         width="529"
         height="49"/>
     <archimateElement
@@ -230,7 +230,7 @@
     </sourceConnections>
     <bounds
         x="912"
-        y="372"
+        y="432"
         width="169"
         height="49"/>
     <archimateElement
@@ -264,7 +264,7 @@
     </sourceConnections>
     <bounds
         x="552"
-        y="372"
+        y="432"
         width="349"
         height="49"/>
     <archimateElement
@@ -286,7 +286,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="732"
-        y="492"
+        y="552"
         width="169"
         height="49"/>
     <archimateElement
@@ -319,7 +319,7 @@
     </sourceConnections>
     <bounds
         x="552"
-        y="492"
+        y="552"
         width="169"
         height="49"/>
     <archimateElement
@@ -341,7 +341,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="12"
-        y="132"
+        y="192"
         width="169"
         height="49"/>
     <archimateElement
@@ -374,7 +374,7 @@
     </sourceConnections>
     <bounds
         x="732"
-        y="612"
+        y="672"
         width="169"
         height="49"/>
     <archimateElement
@@ -408,7 +408,7 @@
     </sourceConnections>
     <bounds
         x="912"
-        y="252"
+        y="312"
         width="169"
         height="49"/>
     <archimateElement
@@ -442,7 +442,7 @@
     </sourceConnections>
     <bounds
         x="192"
-        y="492"
+        y="552"
         width="169"
         height="49"/>
     <archimateElement
@@ -476,7 +476,7 @@
     </sourceConnections>
     <bounds
         x="12"
-        y="372"
+        y="432"
         width="349"
         height="49"/>
     <archimateElement
@@ -521,9 +521,9 @@
     </sourceConnections>
     <bounds
         x="552"
-        y="252"
+        y="312"
         width="169"
-        height="48"/>
+        height="49"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-736075.xml#id-736075"/>
@@ -555,7 +555,7 @@
     </sourceConnections>
     <bounds
         x="912"
-        y="132"
+        y="192"
         width="169"
         height="49"/>
     <archimateElement
@@ -588,7 +588,7 @@
     </sourceConnections>
     <bounds
         x="12"
-        y="492"
+        y="552"
         width="169"
         height="49"/>
     <archimateElement
@@ -621,7 +621,7 @@
     </sourceConnections>
     <bounds
         x="372"
-        y="372"
+        y="432"
         width="169"
         height="49"/>
     <archimateElement
@@ -655,7 +655,7 @@
     </sourceConnections>
     <bounds
         x="12"
-        y="12"
+        y="72"
         width="1069"
         height="49"/>
     <archimateElement
@@ -688,23 +688,30 @@
     </sourceConnections>
     <bounds
         x="192"
-        y="132"
+        y="192"
         width="169"
-        height="48"/>
+        height="49"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-736116.xml#id-736116"/>
   </children>
   <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-57c3259f14474e3fb2a6c7babcbe582c"
-      textAlignment="1"
-      fillColor="#ffff80"
-      content="De relaties tussen enterpriseobjecten zijn in deze versie nog niet afgeleid van waardestromen.">
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-c5d0e5c7e21a45c5a1caee766ea5906a"
+      font="1|Segoe UI|11.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      lineColor="#5c5c5c"
+      fillColor="#ffffff"
+      textPosition="1">
+    <features
+        name="labelExpression"
+        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="12"
-        y="684"
-        width="349"
-        height="80"/>
+        y="12"
+        width="1069"
+        height="37"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-32116fcec50345729bce0bdefc698fb0.xml#id-32116fcec50345729bce0bdefc698fb0"/>
   </children>
 </archimate:ArchimateDiagramModel>
