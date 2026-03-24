@@ -1,12 +1,12 @@
-# NBility-business-capabilities-Archi
+# Model
 
-This repo contains NBility-business-capabilities model version 2.3 in Archi format. The model is built using Archi.
+This repo contains model version in Archi format. The model is built using Archi.
 
-# View 
-The model can be viewed [online](https://nbility-model.github.io/NBility-business-capabilities-Archi/).
+# View
+The model can be viewed [online](https://nbility.netbeheernederland.nl/model/).
 
-# Edit  
-To contribute to the LF Energy Archimate models you need [Archi](https://www.archimatetool.com/). 
+# Edit
+To contribute to the LF Energy Archimate models you need [Archi](https://www.archimatetool.com/).
 
 # Step-by-step user guide for Archi
 
