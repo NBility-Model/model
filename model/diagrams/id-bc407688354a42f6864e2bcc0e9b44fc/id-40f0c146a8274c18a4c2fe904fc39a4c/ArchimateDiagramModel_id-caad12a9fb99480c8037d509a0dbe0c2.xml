@@ -605,7 +605,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-ea50c223ff194c2bb406c2d641fdbc97"
-      targetConnections="id-6507f9955c274f50b580a99f4fc2dce0"
+      targetConnections="id-6507f9955c274f50b580a99f4fc2dce0 id-c1b47421240c4d98aa5f498e8ae0ea83"
       lineColor="#000000"
       fillColor="#ff7c80">
     <features
@@ -1018,6 +1018,26 @@
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-b7dfecb8eefe4086be86c285e6aa3675.xml#id-b7dfecb8eefe4086be86c285e6aa3675"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-011eea7f7bc8402e8e6f7acfc3029c7e"
+        textPosition="2"
+        source="id-53cb2c55a37a4ec2ada0d38775cb3cb8"
+        target="id-044fe8f80ac14cc280ab6b07d0318a7d">
+      <bendpoints
+          startX="-96"
+          startY="12"
+          endX="-96"
+          endY="-168"/>
+      <bendpoints
+          startX="-96"
+          startY="168"
+          endX="-96"
+          endY="-12"/>
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-a7dbc52806df4a5a8e2fe592522a19b5.xml#id-a7dbc52806df4a5a8e2fe592522a19b5"/>
     </sourceConnections>
     <bounds
         x="1056"
@@ -1992,6 +2012,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-64002927ed0b4feeb1b6562e0d311fb8"
       targetConnections="id-69ca2d6e205e4bae9afbbd1dde711887 id-ee58be2eabc74577976fcb4f4a6c5fab"
+      font="1|Segoe UI|11.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
       lineColor="#5c5c5c"
       fillColor="#ffffff"
       textPosition="1">
@@ -2011,6 +2032,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-6b7ab92816df49159b945e76720113e2"
       targetConnections="id-0729f87e3ddb454c8ac601f0934e17e3 id-feee07e87f33491eaa115049f7aad6ee"
+      font="1|Segoe UI|11.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
       lineColor="#5c5c5c"
       fillColor="#ffffff"
       textPosition="1">
@@ -2039,6 +2061,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-35c86bd3e7c441a99f5bdc45d9afe6be"
       targetConnections="id-e3a73b5bb9ca4357ae493d99d3abee71"
+      font="1|Segoe UI|11.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
       lineColor="#5c5c5c"
       fillColor="#ffffff"
       textPosition="1">
@@ -2131,5 +2154,105 @@
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-718345.xml#id-718345"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-0555f20edd484932b3c52bf0de2a5137"
+      lineColor="#000000"
+      fillColor="#ffffcc"
+      alpha="128">
+    <features
+        name="iconVisible"
+        value="2"/>
+    <features
+        name="labelExpression"
+        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+    <features
+        name="lineAlpha"
+        value="128"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-0c88d972b1e34ad3876a20da3c04c9b9"
+        source="id-0555f20edd484932b3c52bf0de2a5137"
+        target="id-509f5d2c4ba246d785e255607c083f75">
+      <archimateRelationship
+          xsi:type="archimate:AccessRelationship"
+          href="AccessRelationship_id-1188e9e2e0754d5c83f487da51c28db1.xml#id-1188e9e2e0754d5c83f487da51c28db1"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-c1b47421240c4d98aa5f498e8ae0ea83"
+        source="id-0555f20edd484932b3c52bf0de2a5137"
+        target="id-ea50c223ff194c2bb406c2d641fdbc97">
+      <bendpoints
+          startX="-144"
+          startY="-24"
+          endX="-144"
+          endY="240"/>
+      <bendpoints
+          startX="-144"
+          startY="-240"
+          endX="-144"
+          endY="24"/>
+      <archimateRelationship
+          xsi:type="archimate:FlowRelationship"
+          href="FlowRelationship_id-40787a11b0254768b05ec4ee272d7c7c.xml#id-40787a11b0254768b05ec4ee272d7c7c"/>
+    </sourceConnections>
+    <bounds
+        x="1008"
+        y="504"
+        width="265"
+        height="97"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-509f5d2c4ba246d785e255607c083f75"
+        targetConnections="id-0c88d972b1e34ad3876a20da3c04c9b9"
+        lineColor="#000000"
+        fillColor="#ffffcc"
+        alpha="0"
+        textPosition="1">
+      <features
+          name="iconVisible"
+          value="2"/>
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+      <features
+          name="lineAlpha"
+          value="128"/>
+      <bounds
+          x="12"
+          y="60"
+          width="241"
+          height="25"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-729611.xml#id-729611"/>
+    </children>
+    <archimateElement
+        xsi:type="archimate:BusinessFunction"
+        href="BusinessFunction_id-711280.xml#id-711280"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-044fe8f80ac14cc280ab6b07d0318a7d"
+      targetConnections="id-011eea7f7bc8402e8e6f7acfc3029c7e"
+      lineColor="#000000"
+      fillColor="#ffffcc"
+      textPosition="1">
+    <features
+        name="iconVisible"
+        value="2"/>
+    <features
+        name="labelExpression"
+        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+    <bounds
+        x="1056"
+        y="984"
+        width="169"
+        height="49"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-729611.xml#id-729611"/>
   </children>
 </archimate:ArchimateDiagramModel>
