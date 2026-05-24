@@ -172,7 +172,6 @@
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-fff65857fbe54186b50837fc3629b6a9"
             targetConnections="id-599c203d2636486b8457207f59758b20 id-7a66fe73a81c45f0a1ee0a7f7a4e1a7c id-f245d9eaa4a7442a83a3926d6962a60a"
-            lineWidth="3"
             fillColor="#e5f1d7"
             textPosition="1">
           <features
@@ -419,7 +418,6 @@
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-ad8650bdf58c4ac5a6250aa44ad59f4b"
             targetConnections="id-a1a81f312a06422c902ecca848ff676d id-bba0e07e17a24598980abf0a78e3c44a"
-            lineWidth="3"
             fillColor="#ffcc99"
             textPosition="1">
           <features
@@ -1780,7 +1778,6 @@
         id="id-891489e74f6c44189b412cece8272043"
         targetConnections="id-347bbae8cf804990bc11dee43788511a"
         fontColor="#000000"
-        lineWidth="3"
         lineColor="#000000"
         fillColor="#ff7c80"
         alpha="0"
@@ -2772,7 +2769,6 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-631ce143d2604b5cb2e5c9e1d1514f91"
-      targetConnections="id-6c48188b69784b06b1551aa0f2c01c7d"
       fillColor="#ff7c80"
       alpha="128">
     <features
@@ -2803,10 +2799,10 @@
           startX="-144"
           startY="-24"
           endX="-144"
-          endY="96"/>
+          endY="192"/>
       <bendpoints
           startX="-144"
-          startY="-96"
+          startY="-192"
           endX="-144"
           endY="24"/>
       <archimateRelationship
@@ -2815,7 +2811,7 @@
     </sourceConnections>
     <bounds
         x="2316"
-        y="888"
+        y="984"
         width="265"
         height="97"/>
     <children
@@ -2867,25 +2863,6 @@
         value="128"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-6c48188b69784b06b1551aa0f2c01c7d"
-        source="id-9e4943140ef54835a874b1abc217d921"
-        target="id-631ce143d2604b5cb2e5c9e1d1514f91">
-      <bendpoints
-          startX="-144"
-          startY="-24"
-          endX="-144"
-          endY="84"/>
-      <bendpoints
-          startX="-144"
-          startY="-84"
-          endX="-144"
-          endY="24"/>
-      <archimateRelationship
-          xsi:type="archimate:ServingRelationship"
-          href="ServingRelationship_id-44866277b9df4cf485b76a1f02ed1fc7.xml#id-44866277b9df4cf485b76a1f02ed1fc7"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-c11e9ea8c2684d098a925e2b0a6e5de3"
         source="id-9e4943140ef54835a874b1abc217d921"
         target="id-ed1aa4ba714e4ec5ba2bf515f603b220">
@@ -2903,10 +2880,10 @@
           startX="144"
           startY="-24"
           endX="144"
-          endY="420"/>
+          endY="300"/>
       <bendpoints
           startX="144"
-          startY="-420"
+          startY="-300"
           endX="144"
           endY="24"/>
       <archimateRelationship
@@ -2915,7 +2892,7 @@
     </sourceConnections>
     <bounds
         x="2316"
-        y="996"
+        y="876"
         width="265"
         height="97"/>
     <children
@@ -4266,7 +4243,7 @@
     </sourceConnections>
     <bounds
         x="1392"
-        y="1332"
+        y="1320"
         width="169"
         height="49"/>
     <archimateElement
@@ -4289,7 +4266,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="1392"
-        y="1572"
+        y="1560"
         width="169"
         height="49"/>
     <archimateElement
@@ -4321,7 +4298,7 @@
     </sourceConnections>
     <bounds
         x="1392"
-        y="1452"
+        y="1440"
         width="169"
         height="49"/>
     <archimateElement
@@ -4344,7 +4321,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="1392"
-        y="1632"
+        y="1620"
         width="169"
         height="49"/>
     <archimateElement
@@ -4435,7 +4412,7 @@
     </sourceConnections>
     <bounds
         x="1068"
-        y="1332"
+        y="1320"
         width="169"
         height="49"/>
     <archimateElement
@@ -4467,7 +4444,7 @@
     </sourceConnections>
     <bounds
         x="1068"
-        y="1452"
+        y="1440"
         width="169"
         height="49"/>
     <archimateElement
@@ -4490,7 +4467,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="1068"
-        y="1632"
+        y="1620"
         width="169"
         height="49"/>
     <archimateElement
@@ -4513,7 +4490,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="1068"
-        y="1572"
+        y="1560"
         width="169"
         height="49"/>
     <archimateElement
@@ -4545,7 +4522,7 @@
     </sourceConnections>
     <bounds
         x="744"
-        y="1452"
+        y="1440"
         width="169"
         height="49"/>
     <archimateElement
@@ -4568,7 +4545,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="744"
-        y="1632"
+        y="1620"
         width="169"
         height="49"/>
     <archimateElement
@@ -4591,7 +4568,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="744"
-        y="1692"
+        y="1680"
         width="169"
         height="49"/>
     <archimateElement
@@ -4720,7 +4697,7 @@
     </sourceConnections>
     <bounds
         x="744"
-        y="1332"
+        y="1320"
         width="169"
         height="49"/>
     <archimateElement
@@ -4743,7 +4720,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="744"
-        y="1572"
+        y="1560"
         width="169"
         height="49"/>
     <archimateElement
@@ -4766,7 +4743,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="744"
-        y="1752"
+        y="1740"
         width="169"
         height="49"/>
     <archimateElement
@@ -4798,7 +4775,7 @@
     </sourceConnections>
     <bounds
         x="96"
-        y="1332"
+        y="1320"
         width="169"
         height="49"/>
     <archimateElement
@@ -4819,18 +4796,9 @@
     <features
         name="labelExpression"
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-250d60d210f34d6f94cfbae236593fa7"
-        source="id-748f03cab5814e6c9f5b85ee919e36a3"
-        target="id-750ad76b46e349629b75aa03a194f0e7">
-      <archimateRelationship
-          xsi:type="archimate:AssociationRelationship"
-          href="AssociationRelationship_id-735617.xml#id-735617"/>
-    </sourceConnections>
     <bounds
         x="2352"
-        y="1452"
+        y="1500"
         width="169"
         height="49"/>
     <archimateElement
@@ -4840,7 +4808,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-750ad76b46e349629b75aa03a194f0e7"
-      targetConnections="id-98ca7f2dc7444465a549647a671c910b id-250d60d210f34d6f94cfbae236593fa7"
+      targetConnections="id-98ca7f2dc7444465a549647a671c910b"
       fontColor="#000000"
       lineColor="#000000"
       fillColor="#ff7c80"
@@ -4853,7 +4821,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="2352"
-        y="1572"
+        y="1440"
         width="169"
         height="49"/>
     <archimateElement
@@ -4877,19 +4845,8 @@
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-98ca7f2dc7444465a549647a671c910b"
-        textPosition="2"
         source="id-601c72990ef5474eaf2e37d156875aa4"
         target="id-750ad76b46e349629b75aa03a194f0e7">
-      <bendpoints
-          startX="-96"
-          startY="12"
-          endX="-96"
-          endY="-228"/>
-      <bendpoints
-          startX="-96"
-          startY="228"
-          endX="-96"
-          endY="-12"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-735555.xml#id-735555"/>
@@ -4897,15 +4854,26 @@
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-78e45c17d9e94df3b6432ff48ea3c080"
+        textPosition="2"
         source="id-601c72990ef5474eaf2e37d156875aa4"
         target="id-748f03cab5814e6c9f5b85ee919e36a3">
+      <bendpoints
+          startX="-96"
+          startY="12"
+          endX="-96"
+          endY="-168"/>
+      <bendpoints
+          startX="-96"
+          startY="168"
+          endX="-96"
+          endY="-12"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-eb83d92949cd49dc93637ad69fc4e06b.xml#id-eb83d92949cd49dc93637ad69fc4e06b"/>
     </sourceConnections>
     <bounds
         x="2352"
-        y="1332"
+        y="1320"
         width="169"
         height="49"/>
     <archimateElement
@@ -4955,7 +4923,7 @@
     </sourceConnections>
     <bounds
         x="3984"
-        y="1332"
+        y="1320"
         width="169"
         height="49"/>
     <archimateElement
@@ -4978,7 +4946,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="3984"
-        y="1452"
+        y="1440"
         width="169"
         height="49"/>
     <archimateElement
@@ -5001,7 +4969,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="3660"
-        y="1452"
+        y="1440"
         width="169"
         height="49"/>
     <archimateElement
@@ -5033,7 +5001,7 @@
     </sourceConnections>
     <bounds
         x="3660"
-        y="1512"
+        y="1500"
         width="169"
         height="49"/>
     <archimateElement
@@ -5113,7 +5081,7 @@
     </sourceConnections>
     <bounds
         x="3660"
-        y="1332"
+        y="1320"
         width="169"
         height="49"/>
     <archimateElement
@@ -5145,7 +5113,7 @@
     </sourceConnections>
     <bounds
         x="3660"
-        y="1632"
+        y="1620"
         width="169"
         height="49"/>
     <archimateElement
@@ -5168,7 +5136,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="3336"
-        y="1452"
+        y="1440"
         width="169"
         height="49"/>
     <archimateElement
@@ -5221,7 +5189,7 @@
     </sourceConnections>
     <bounds
         x="3336"
-        y="1332"
+        y="1320"
         width="169"
         height="49"/>
     <archimateElement
@@ -5244,7 +5212,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="3012"
-        y="1452"
+        y="1440"
         width="169"
         height="49"/>
     <archimateElement
@@ -5267,7 +5235,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="3012"
-        y="1512"
+        y="1500"
         width="169"
         height="49"/>
     <archimateElement
@@ -5339,9 +5307,9 @@
           endX="264"
           endY="-48"/>
       <bendpoints
-          startX="-264"
+          startX="-252"
           startY="-48"
-          endX="60"
+          endX="72"
           endY="-48"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
@@ -5349,7 +5317,7 @@
     </sourceConnections>
     <bounds
         x="3012"
-        y="1332"
+        y="1320"
         width="169"
         height="49"/>
     <archimateElement
@@ -5411,7 +5379,7 @@
     </sourceConnections>
     <bounds
         x="3012"
-        y="1392"
+        y="1380"
         width="169"
         height="49"/>
     <archimateElement
@@ -5443,7 +5411,7 @@
     </sourceConnections>
     <bounds
         x="4632"
-        y="1572"
+        y="1560"
         width="169"
         height="49"/>
     <archimateElement
@@ -5466,7 +5434,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="4632"
-        y="1692"
+        y="1680"
         width="169"
         height="49"/>
     <archimateElement
@@ -5524,9 +5492,9 @@
           endX="3168"
           endY="-72"/>
       <bendpoints
-          startX="-3180"
+          startX="-3168"
           startY="-72"
-          endX="60"
+          endX="72"
           endY="-72"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
@@ -5534,7 +5502,7 @@
     </sourceConnections>
     <bounds
         x="4632"
-        y="1332"
+        y="1320"
         width="169"
         height="49"/>
     <archimateElement
@@ -5566,7 +5534,7 @@
     </sourceConnections>
     <bounds
         x="4632"
-        y="1452"
+        y="1440"
         width="169"
         height="49"/>
     <archimateElement
@@ -5605,9 +5573,9 @@
           endX="576"
           endY="-48"/>
       <bendpoints
-          startX="-588"
+          startX="-576"
           startY="-48"
-          endX="60"
+          endX="72"
           endY="-48"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
@@ -5615,7 +5583,7 @@
     </sourceConnections>
     <bounds
         x="4308"
-        y="1332"
+        y="1320"
         width="169"
         height="49"/>
     <archimateElement
@@ -5647,7 +5615,7 @@
     </sourceConnections>
     <bounds
         x="4308"
-        y="1452"
+        y="1440"
         width="169"
         height="49"/>
     <archimateElement
@@ -5670,7 +5638,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="4308"
-        y="1572"
+        y="1560"
         width="169"
         height="49"/>
     <archimateElement
@@ -5775,10 +5743,10 @@
           startX="-144"
           startY="-24"
           endX="-144"
-          endY="150"/>
+          endY="258"/>
       <bendpoints
           startX="-144"
-          startY="-132"
+          startY="-240"
           endX="-144"
           endY="42"/>
       <archimateRelationship
@@ -5787,7 +5755,7 @@
     </sourceConnections>
     <bounds
         x="372"
-        y="480"
+        y="588"
         width="265"
         height="97"/>
     <children
@@ -5950,10 +5918,10 @@
           startX="-144"
           startY="-24"
           endX="-144"
-          endY="258"/>
+          endY="150"/>
       <bendpoints
           startX="-144"
-          startY="-240"
+          startY="-132"
           endX="-144"
           endY="42"/>
       <archimateRelationship
@@ -5962,7 +5930,7 @@
     </sourceConnections>
     <bounds
         x="372"
-        y="588"
+        y="480"
         width="265"
         height="97"/>
     <children
@@ -6045,14 +6013,14 @@
         source="id-d43b878480244d55b6ff337c5a1aae99"
         target="id-ec5f68e69b2247c298e132fc816ba520">
       <bendpoints
-          startX="96"
+          startX="-96"
           startY="12"
-          endX="96"
-          endY="-168"/>
+          endX="-96"
+          endY="-288"/>
       <bendpoints
-          startX="96"
-          startY="168"
-          endX="96"
+          startX="-96"
+          startY="288"
+          endX="-96"
           endY="-12"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
@@ -6060,7 +6028,7 @@
     </sourceConnections>
     <bounds
         x="432"
-        y="1332"
+        y="1320"
         width="169"
         height="49"/>
     <archimateElement
@@ -6084,26 +6052,15 @@
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-274e0ffe53414da789e9ac928a03a8da"
-        textPosition="2"
         source="id-e00d83975afb42ef8d74279034e30cc9"
         target="id-b29c6e1c4cd5493fba92093a965a35ea">
-      <bendpoints
-          startX="-96"
-          startY="12"
-          endX="-96"
-          endY="-168"/>
-      <bendpoints
-          startX="-96"
-          startY="168"
-          endX="-96"
-          endY="-12"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-735517.xml#id-735517"/>
     </sourceConnections>
     <bounds
         x="432"
-        y="1452"
+        y="1440"
         width="169"
         height="49"/>
     <archimateElement
@@ -6113,7 +6070,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-b29c6e1c4cd5493fba92093a965a35ea"
-      targetConnections="id-9590d3d7ebc342239390781416f39e2d id-274e0ffe53414da789e9ac928a03a8da"
+      targetConnections="id-274e0ffe53414da789e9ac928a03a8da"
       fontColor="#000000"
       lineColor="#000000"
       fillColor="#e5f1d7"
@@ -6126,7 +6083,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="432"
-        y="1632"
+        y="1560"
         width="169"
         height="49"/>
     <archimateElement
@@ -6147,18 +6104,9 @@
     <features
         name="labelExpression"
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-9590d3d7ebc342239390781416f39e2d"
-        source="id-ec5f68e69b2247c298e132fc816ba520"
-        target="id-b29c6e1c4cd5493fba92093a965a35ea">
-      <archimateRelationship
-          xsi:type="archimate:AssociationRelationship"
-          href="AssociationRelationship_id-07635427079b4bf78fdd52e1f5bd04f5.xml#id-07635427079b4bf78fdd52e1f5bd04f5"/>
-    </sourceConnections>
     <bounds
         x="432"
-        y="1512"
+        y="1620"
         width="169"
         height="49"/>
     <archimateElement
@@ -6209,7 +6157,7 @@
     </sourceConnections>
     <bounds
         x="2040"
-        y="1332"
+        y="1320"
         width="169"
         height="49"/>
     <archimateElement
@@ -6261,7 +6209,7 @@
     </sourceConnections>
     <bounds
         x="2040"
-        y="1452"
+        y="1440"
         width="169"
         height="49"/>
     <archimateElement
@@ -6284,7 +6232,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="2040"
-        y="1572"
+        y="1560"
         width="169"
         height="49"/>
     <archimateElement
@@ -6307,7 +6255,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="2040"
-        y="1632"
+        y="1620"
         width="169"
         height="49"/>
     <archimateElement
@@ -6625,28 +6573,6 @@
         href="BusinessFunction_id-718714.xml#id-718714"/>
   </children>
   <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-d4c852f009844a9980a7affb85531622"
-      textAlignment="1"
-      content="In deze stap wordt een impliciete klantovereenkomst (raamovereenkomst) gesloten waaronder de afroep van biedingen plaatsvindt (tevens impliciete klantovereenkomsten).">
-    <bounds
-        x="1992"
-        y="768"
-        width="265"
-        height="97"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-4c1e5d47a73a4e1c9ad89fcecc0d3d74"
-      textAlignment="1"
-      content="De overeenkomsten in deze waardestroom zijn niet met de waardeontvanger per se. Daarom is dat niet de eerste stap zoals in bijvoorbeeld C.A.">
-    <bounds
-        x="48"
-        y="552"
-        width="265"
-        height="73"/>
-  </children>
-  <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-17fd274bd9dd4a8ea7172b2b685dddac"
       targetConnections="id-8068d82b5b944ca0b3b59a136023f1bc id-ef4dbd260f6545d3bb8dd297a0080a53"
@@ -6785,7 +6711,6 @@
         id="id-4b85a459d9d94271bfa1c71eac2cab7b"
         targetConnections="id-42849e7ae67245cf9ce72a93f11bade8"
         fontColor="#000000"
-        lineWidth="3"
         lineColor="#000000"
         fillColor="#ff7c80"
         alpha="0"
@@ -6828,7 +6753,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="96"
-        y="1452"
+        y="1440"
         width="169"
         height="49"/>
     <archimateElement
@@ -6909,24 +6834,12 @@
     </sourceConnections>
     <bounds
         x="3660"
-        y="1392"
+        y="1380"
         width="169"
         height="49"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-24c63d5d05604edb8476d9d9b2db579d.xml#id-24c63d5d05604edb8476d9d9b2db579d"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-b61003a059264720b82876d6840ee48f"
-      textAlignment="1"
-      fillColor="#ffffff"
-      content="Strikt genomen hoort de Transportvrijgave in C.F. Echter, C.F focust meer op transport in het hier en nu, wat te laat is voor dit soort onbalans veroorzakende acties. Daarnaast wordt het transport typisch vrijgegeven in nauwe samenhang met het afroepen van capaciteitssturingsdiensten (hier in C.E).">
-    <bounds
-        x="3612"
-        y="948"
-        width="265"
-        height="132"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -7243,10 +7156,10 @@
           startX="156"
           startY="-24"
           endX="156"
-          endY="420"/>
+          endY="408"/>
       <bendpoints
           startX="156"
-          startY="-420"
+          startY="-408"
           endX="156"
           endY="24"/>
       <archimateRelationship
@@ -7255,7 +7168,7 @@
     </sourceConnections>
     <bounds
         x="2640"
-        y="996"
+        y="984"
         width="265"
         height="97"/>
     <children
@@ -7323,10 +7236,10 @@
           startX="-144"
           startY="-24"
           endX="-144"
-          endY="576"/>
+          endY="564"/>
       <bendpoints
           startX="-144"
-          startY="-576"
+          startY="-564"
           endX="-144"
           endY="24"/>
       <archimateRelationship
@@ -7335,7 +7248,7 @@
     </sourceConnections>
     <bounds
         x="2640"
-        y="888"
+        y="876"
         width="265"
         height="97"/>
     <children
@@ -7485,10 +7398,10 @@
           startX="-144"
           startY="-42"
           endX="-144"
-          endY="792"/>
+          endY="780"/>
       <bendpoints
           startX="-144"
-          startY="-810"
+          startY="-798"
           endX="-144"
           endY="24"/>
       <archimateRelationship
@@ -7497,7 +7410,7 @@
     </sourceConnections>
     <bounds
         x="2640"
-        y="1104"
+        y="1092"
         width="265"
         height="133"/>
     <children
@@ -7680,7 +7593,7 @@
     </sourceConnections>
     <bounds
         x="2688"
-        y="1332"
+        y="1320"
         width="169"
         height="49"/>
     <archimateElement
@@ -7703,7 +7616,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="2688"
-        y="1872"
+        y="1860"
         width="169"
         height="49"/>
     <archimateElement
@@ -7726,7 +7639,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="2688"
-        y="1812"
+        y="1800"
         width="169"
         height="49"/>
     <archimateElement
@@ -7749,7 +7662,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="2688"
-        y="1932"
+        y="1920"
         width="169"
         height="49"/>
     <archimateElement
@@ -7772,7 +7685,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="2688"
-        y="1452"
+        y="1440"
         width="169"
         height="49"/>
     <archimateElement
@@ -7824,7 +7737,7 @@
     </sourceConnections>
     <bounds
         x="2688"
-        y="1512"
+        y="1500"
         width="169"
         height="49"/>
     <archimateElement
@@ -7856,7 +7769,7 @@
     </sourceConnections>
     <bounds
         x="2688"
-        y="1632"
+        y="1620"
         width="169"
         height="49"/>
     <archimateElement
@@ -7879,7 +7792,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="2688"
-        y="1752"
+        y="1740"
         width="169"
         height="49"/>
     <archimateElement
@@ -7902,7 +7815,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="2688"
-        y="1992"
+        y="1980"
         width="169"
         height="49"/>
     <archimateElement
@@ -8074,10 +7987,10 @@
       <bendpoints
           startX="-72"
           startY="-36"
-          endX="264"
+          endX="252"
           endY="-36"/>
       <bendpoints
-          startX="-264"
+          startX="-252"
           startY="-36"
           endX="72"
           endY="-36"/>
@@ -8096,7 +8009,7 @@
     </sourceConnections>
     <bounds
         x="1716"
-        y="1332"
+        y="1320"
         width="169"
         height="49"/>
     <archimateElement
@@ -8119,7 +8032,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="1716"
-        y="1452"
+        y="1440"
         width="169"
         height="49"/>
     <archimateElement
@@ -8222,7 +8135,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="3660"
-        y="1752"
+        y="1740"
         width="169"
         height="49"/>
     <archimateElement
@@ -8405,7 +8318,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="1068"
-        y="1692"
+        y="1680"
         width="169"
         height="49"/>
     <archimateElement
@@ -8428,7 +8341,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="744"
-        y="1812"
+        y="1800"
         width="169"
         height="49"/>
     <archimateElement
@@ -8531,22 +8444,11 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="3660"
-        y="1812"
+        y="1800"
         width="169"
         height="49"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-468886.xml#id-468886"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-f1f790c54ec448daa2883bd9440f886c"
-      textAlignment="1"
-      content="De netaanpassingsopdracht is aanleiding om te werven, en daarom vetomlijnd.">
-    <bounds
-        x="696"
-        y="1092"
-        width="265"
-        height="49"/>
   </children>
 </archimate:ArchimateDiagramModel>

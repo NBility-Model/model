@@ -4,18 +4,6 @@
     name="N0"
     id="id-8c7b02afd85c480e826d62438751626a">
   <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-9644964df4444b96891a97d1367039c6"
-      textAlignment="1"
-      fillColor="#ffff80"
-      content="WIJZIGINGEN&#xD;&#xA;&#xD;&#xA;Toegevoegde functies en objecten:&#xD;&#xA;- Energienetten beheren (Netbheerdienstverlening)&#xD;&#xA;- Netbeheer ondersteunen (Netbeheerder)&#xD;&#xA;&#xD;&#xA;Motivatie:&#xD;&#xA;- Functies, objecten en waardestromen op alle niveaus (fractaal patroon).">
-    <bounds
-        x="24"
-        y="1272"
-        width="421"
-        height="145"/>
-  </children>
-  <children
       xsi:type="archimate:DiagramModelGroup"
       id="id-d55e478b5b984e278046e11130942431"
       name="Transportgereed energienet"
@@ -1212,15 +1200,6 @@
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-60ab7bd7033840109be9b6535f8bec63.xml#id-60ab7bd7033840109be9b6535f8bec63"/>
     </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-ac50a5eef6ab42e38517cfea66b76f5b"
-        source="id-19ec2047386a4c22a8eceb894c4d1a3f"
-        target="id-ad3f2d1188d742b192f0ee31c4c7e98e">
-      <archimateRelationship
-          xsi:type="archimate:AssociationRelationship"
-          href="AssociationRelationship_id-9f427a7b3c8d480c914a91b75ee575e6.xml#id-9f427a7b3c8d480c914a91b75ee575e6"/>
-    </sourceConnections>
     <bounds
         x="948"
         y="504"
@@ -1811,18 +1790,6 @@
     </children>
   </children>
   <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-33e5694409c84cd8ada13fa98f38ca76"
-      textAlignment="1"
-      fillColor="#ffff80"
-      content="TODO: omschrijving e.d. van de nieuwe functies en objecten">
-    <bounds
-        x="24"
-        y="1428"
-        width="421"
-        height="36"/>
-  </children>
-  <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-4c3b3b1105614a649d5eeab9eb1f58c1"
       targetConnections="id-6c4e824fd2064547a8ab472db8b2d3aa"
@@ -1855,24 +1822,6 @@
     <features
         name="iconVisible"
         value="2"/>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-7220cec238c947c981596dd8f5f8a98b"
-        source="id-79f0a8d4bda34a7da2eca4d1e0c1bbdd"
-        target="id-ad3f2d1188d742b192f0ee31c4c7e98e">
-      <archimateRelationship
-          xsi:type="archimate:AssociationRelationship"
-          href="AssociationRelationship_id-57684cc26d8f417180265b4068a58a82.xml#id-57684cc26d8f417180265b4068a58a82"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-1d1c2a8834754823bb763fe7558f39de"
-        source="id-79f0a8d4bda34a7da2eca4d1e0c1bbdd"
-        target="id-180bda239a524a7e9380d110326d604c">
-      <archimateRelationship
-          xsi:type="archimate:AssociationRelationship"
-          href="AssociationRelationship_id-9d1234ae0ee042978e92ffeccfe6459d.xml#id-9d1234ae0ee042978e92ffeccfe6459d"/>
-    </sourceConnections>
     <bounds
         x="1356"
         y="564"
@@ -1986,55 +1935,5 @@
     <archimateElement
         xsi:type="archimate:Product"
         href="Product_id-c4f94ef59a58454dab3cfa4fad9532b0.xml#id-c4f94ef59a58454dab3cfa4fad9532b0"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-180bda239a524a7e9380d110326d604c"
-      targetConnections="id-7257c82f4764401fa101bc3e5c787290 id-1d1c2a8834754823bb763fe7558f39de"
-      lineColor="#5c5c5c"
-      fillColor="#ffffff"
-      textPosition="1">
-    <features
-        name="labelExpression"
-        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-    <bounds
-        x="1620"
-        y="504"
-        width="169"
-        height="85"/>
-    <archimateElement
-        xsi:type="archimate:BusinessActor"
-        href="BusinessActor_id-479e09d0a7e34459b8192474d073e1cf.xml#id-479e09d0a7e34459b8192474d073e1cf"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-ad3f2d1188d742b192f0ee31c4c7e98e"
-      targetConnections="id-7220cec238c947c981596dd8f5f8a98b id-ac50a5eef6ab42e38517cfea66b76f5b"
-      lineColor="#5c5c5c"
-      fillColor="#ffffff"
-      textPosition="1">
-    <features
-        name="labelExpression"
-        value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-    <features
-        name="iconVisible"
-        value="2"/>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-7257c82f4764401fa101bc3e5c787290"
-        source="id-ad3f2d1188d742b192f0ee31c4c7e98e"
-        target="id-180bda239a524a7e9380d110326d604c">
-      <archimateRelationship
-          xsi:type="archimate:AssociationRelationship"
-          href="AssociationRelationship_id-64d734a44e3c483d8766602d7c00f704.xml#id-64d734a44e3c483d8766602d7c00f704"/>
-    </sourceConnections>
-    <bounds
-        x="1356"
-        y="504"
-        width="253"
-        height="49"/>
-    <archimateElement
-        xsi:type="archimate:Value"
-        href="Value_id-4853b9a896714b95ac90574194dcb414.xml#id-4853b9a896714b95ac90574194dcb414"/>
   </children>
 </archimate:ArchimateDiagramModel>
