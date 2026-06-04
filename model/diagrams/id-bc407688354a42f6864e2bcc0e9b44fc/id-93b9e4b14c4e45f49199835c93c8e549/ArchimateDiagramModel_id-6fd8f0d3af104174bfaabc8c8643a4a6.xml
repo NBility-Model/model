@@ -22,6 +22,9 @@
         id="id-b0b042ca1de04431b0c7a6cdc50f9764"
         source="id-1d673f8435a94896a0bf0c035e728ab5"
         target="id-1a7e97a4a1414e5ea747a96f1db307b6">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-735617.xml#id-735617"/>
@@ -32,13 +35,16 @@
         textPosition="2"
         source="id-1d673f8435a94896a0bf0c035e728ab5"
         target="id-7518252fe0ce40319c2c2b4d3c0d99a4">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <bendpoints
           startX="-132"
           endX="228"
-          endY="60"/>
+          endY="240"/>
       <bendpoints
           startX="-132"
-          startY="-60"
+          startY="-240"
           endX="228"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
@@ -50,6 +56,17 @@
         textPosition="2"
         source="id-1d673f8435a94896a0bf0c035e728ab5"
         target="id-85f7524291fe43b8bdccb17363df502b">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+      <bendpoints
+          startX="-132"
+          endX="228"
+          endY="180"/>
+      <bendpoints
+          startX="-132"
+          startY="-180"
+          endX="228"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-335c5dfa66274f629c59df4b8855ce6e.xml#id-335c5dfa66274f629c59df4b8855ce6e"/>
@@ -60,13 +77,16 @@
         textPosition="2"
         source="id-1d673f8435a94896a0bf0c035e728ab5"
         target="id-d1a7c0eb71aa47e6b381f296507133fe">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <bendpoints
           startX="-132"
           endX="228"
-          endY="-60"/>
+          endY="120"/>
       <bendpoints
           startX="-132"
-          startY="60"
+          startY="-120"
           endX="228"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
@@ -84,7 +104,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-5ebb96eadf0c40e7bcbc362f9b73af52"
-      targetConnections="id-1351e3b187ed48b3b3e742f3996ed624"
+      targetConnections="id-1351e3b187ed48b3b3e742f3996ed624 id-240c7c5b01e1408cab4ff5a768d3c42f"
       fontColor="#000000"
       lineColor="#000000"
       fillColor="#ff7c80"
@@ -96,8 +116,8 @@
         name="labelExpression"
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
-        x="1272"
-        y="732"
+        x="1092"
+        y="612"
         width="169"
         height="49"/>
     <archimateElement
@@ -123,6 +143,9 @@
         id="id-96170cc50de04480a3c93cd0d84bf9d0"
         source="id-286f65c401664783b87525b04633e6b9"
         target="id-0194b21288b64777b1cc27ecdfd36343">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-91c7e130d9b34412a3fc8e41515c47f5.xml#id-91c7e130d9b34412a3fc8e41515c47f5"/>
@@ -132,6 +155,9 @@
         id="id-63ebe5810a704bae9d50dd846418e4e5"
         source="id-286f65c401664783b87525b04633e6b9"
         target="id-1a7e97a4a1414e5ea747a96f1db307b6">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-9c90116669ba4df79e4da8e8019700ff.xml#id-9c90116669ba4df79e4da8e8019700ff"/>
@@ -141,15 +167,18 @@
         id="id-9230beb717034086a4849c6c308d6efd"
         source="id-286f65c401664783b87525b04633e6b9"
         target="id-802298c1c74c4e5897ba300d275416c4">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-007c22f012d84d18af154db4d57b4e6d.xml#id-007c22f012d84d18af154db4d57b4e6d"/>
     </sourceConnections>
     <bounds
-        x="1632"
-        y="492"
-        width="169"
-        height="409"/>
+        x="912"
+        y="852"
+        width="529"
+        height="49"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-723037.xml#id-723037"/>
@@ -173,12 +202,15 @@
         id="id-0fadcdd296464d59a1d89f62b9eb3c07"
         source="id-e49c1598c48d4016be8b6d59d8ccea00"
         target="id-1a7e97a4a1414e5ea747a96f1db307b6">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-735479.xml#id-735479"/>
     </sourceConnections>
     <bounds
-        x="2172"
+        x="1452"
         y="852"
         width="169"
         height="49"/>
@@ -205,6 +237,9 @@
         id="id-ab7ab481212e4ee8ac1583c3f48bd21c"
         source="id-f4efccad2116409686cf77c87b080221"
         target="id-e49c1598c48d4016be8b6d59d8ccea00">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-c05d9f003fe3455b871e35aadb55ce6d.xml#id-c05d9f003fe3455b871e35aadb55ce6d"/>
@@ -214,14 +249,14 @@
         id="id-88bf32ac3e0f4c29b4faedb066f17749"
         source="id-f4efccad2116409686cf77c87b080221"
         target="id-1a7e97a4a1414e5ea747a96f1db307b6">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <bendpoints
-          startX="996"
-          endX="996"
-          endY="-600"/>
-      <bendpoints
-          startX="996"
-          startY="600"
-          endX="996"/>
+          startX="180"
+          startY="240"
+          endX="450"
+          endY="-360"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-735694.xml#id-735694"/>
@@ -232,14 +267,30 @@
         textPosition="2"
         source="id-f4efccad2116409686cf77c87b080221"
         target="id-2399878089f94cfc9f32f6c7542ba908">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+      <bendpoints
+          startX="84"
+          startY="-120"
+          endX="-96"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-6db2a05897c14e608f5199146ed471c4.xml#id-6db2a05897c14e608f5199146ed471c4"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-ef2f18d7cdba4aa291d0e8c5ab40bfde"
+        source="id-f4efccad2116409686cf77c87b080221"
+        target="id-6094f389958c479cae4083e6ed95b0fc">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-e0df4e4e299442ba894a17cc4c54e02a.xml#id-e0df4e4e299442ba894a17cc4c54e02a"/>
+    </sourceConnections>
     <bounds
-        x="372"
+        x="1272"
         y="372"
-        width="1969"
+        width="529"
         height="49"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
@@ -264,6 +315,9 @@
         id="id-172df4d301ce430890ca201bcefcd0ff"
         source="id-1a7e97a4a1414e5ea747a96f1db307b6"
         target="id-730ba9bef5c240789ec7d33cf7796584">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-cc7934f0dffb4b8eb2553bfcb729dc38.xml#id-cc7934f0dffb4b8eb2553bfcb729dc38"/>
@@ -274,6 +328,9 @@
         textPosition="2"
         source="id-1a7e97a4a1414e5ea747a96f1db307b6"
         target="id-03752b0f3bb44c6783ff80dad4bc67b5">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-735486.xml#id-735486"/>
@@ -281,7 +338,7 @@
     <bounds
         x="372"
         y="972"
-        width="1969"
+        width="1789"
         height="49"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
@@ -304,6 +361,9 @@
         id="id-b32ba9209ae644248b76cd8aed006e33"
         source="id-f3cc955a05aa43b49c52ad0cdc43b44a"
         target="id-f4efccad2116409686cf77c87b080221">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-8d05937d06ed474086986b06461ef8c9.xml#id-8d05937d06ed474086986b06461ef8c9"/>
@@ -313,14 +373,26 @@
         id="id-8d27ea94d09f4fcea1c6dc0b6ce54218"
         source="id-f3cc955a05aa43b49c52ad0cdc43b44a"
         target="id-de1e9c6693f94205abddd924cce90428">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-bfe13b077d56407f858ded55d9cff2ca.xml#id-bfe13b077d56407f858ded55d9cff2ca"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-240c7c5b01e1408cab4ff5a768d3c42f"
+        source="id-f3cc955a05aa43b49c52ad0cdc43b44a"
+        target="id-5ebb96eadf0c40e7bcbc362f9b73af52">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-bceb245c8cfa4be485054c6bf767c475.xml#id-bceb245c8cfa4be485054c6bf767c475"/>
+    </sourceConnections>
     <bounds
-        x="912"
+        x="1092"
         y="492"
-        width="169"
+        width="349"
         height="49"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
@@ -368,6 +440,9 @@
         id="id-1351e3b187ed48b3b3e742f3996ed624"
         source="id-6054dbc049c943cf9bc25715f83d4f19"
         target="id-5ebb96eadf0c40e7bcbc362f9b73af52">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-735584.xml#id-735584"/>
@@ -377,6 +452,9 @@
         id="id-5445a415efb14ac0abd3731005262a29"
         source="id-6054dbc049c943cf9bc25715f83d4f19"
         target="id-286f65c401664783b87525b04633e6b9">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-735484.xml#id-735484"/>
@@ -386,6 +464,14 @@
         id="id-ee8834ea158e47deb45b9e84f05ce71d"
         source="id-6054dbc049c943cf9bc25715f83d4f19"
         target="id-f3cc955a05aa43b49c52ad0cdc43b44a">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+      <bendpoints
+          startX="90"
+          startY="-120"
+          endX="90"
+          endY="120"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-fe15feb49a9a41a28b3a265fee7f7eee.xml#id-fe15feb49a9a41a28b3a265fee7f7eee"/>
@@ -396,14 +482,22 @@
         textPosition="2"
         source="id-6054dbc049c943cf9bc25715f83d4f19"
         target="id-bf84450468db4340863c761ee9a50135">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <bendpoints
-          startX="96"
-          startY="-12"
+          startX="162"
+          startY="-36"
+          endX="72"
+          endY="504"/>
+      <bendpoints
+          startX="186"
+          startY="-36"
           endX="96"
-          endY="288"/>
+          endY="504"/>
       <bendpoints
-          startX="96"
-          startY="-300"
+          startX="186"
+          startY="-540"
           endX="96"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
@@ -415,23 +509,31 @@
         textPosition="2"
         source="id-6054dbc049c943cf9bc25715f83d4f19"
         target="id-7fdf5f9baa4b4698a000d801e4eaac07">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <bendpoints
-          startX="96"
-          startY="-12"
+          startX="162"
+          startY="-36"
+          endX="72"
+          endY="444"/>
+      <bendpoints
+          startX="186"
+          startY="-36"
           endX="96"
-          endY="228"/>
+          endY="444"/>
       <bendpoints
-          startX="96"
-          startY="-240"
+          startX="186"
+          startY="-480"
           endX="96"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-e2ac20b3b9bd46b585d9d4d47325ab99.xml#id-e2ac20b3b9bd46b585d9d4d47325ab99"/>
     </sourceConnections>
     <bounds
-        x="1272"
-        y="492"
-        width="169"
+        x="1092"
+        y="732"
+        width="349"
         height="49"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
@@ -452,8 +554,8 @@
         name="labelExpression"
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
-        x="1992"
-        y="492"
+        x="912"
+        y="732"
         width="169"
         height="49"/>
     <archimateElement
@@ -477,12 +579,24 @@
         id="id-de400bf3c8dc4cad9b73beb4ad1d432a"
         source="id-de1e9c6693f94205abddd924cce90428"
         target="id-aaf87aba2412435a894d77a2b974c898">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-6dcf55fd3ad54432aa91946777ff87c7.xml#id-6dcf55fd3ad54432aa91946777ff87c7"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-e0f98045341f4c8ebfa1853579431794"
+        source="id-de1e9c6693f94205abddd924cce90428"
+        target="id-16a3cf0b1f474f529560cb010d25e780">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-b80c8142396f42aaa668d43e9153f288.xml#id-b80c8142396f42aaa668d43e9153f288"/>
+    </sourceConnections>
     <bounds
-        x="372"
+        x="552"
         y="492"
         width="349"
         height="49"/>
@@ -509,14 +623,26 @@
         id="id-1c24777e5ae144249d1e342b1603e035"
         source="id-aaf87aba2412435a894d77a2b974c898"
         target="id-2b1f93ec99b6409eabbc14cda7378438">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-c4de3ba90b804b20a8ad942df628cbe6.xml#id-c4de3ba90b804b20a8ad942df628cbe6"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-65e02552ffbc479d918adb346c800e07"
+        source="id-aaf87aba2412435a894d77a2b974c898"
+        target="id-6094f389958c479cae4083e6ed95b0fc">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-8317b1be51b046eab53d68ef96cb65ef.xml#id-8317b1be51b046eab53d68ef96cb65ef"/>
+    </sourceConnections>
     <bounds
         x="372"
-        y="612"
-        width="169"
+        y="372"
+        width="349"
         height="49"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
@@ -541,6 +667,9 @@
         id="id-f5b475d83cb44d03bde4307483f5e1ff"
         source="id-1530b3646f2749f6bc3a89ba1e1d5493"
         target="id-1a7e97a4a1414e5ea747a96f1db307b6">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-735683.xml#id-735683"/>
@@ -573,21 +702,16 @@
         textPosition="2"
         source="id-c6e676a7f2184d79864ef1791cb7d10f"
         target="id-4f77f20bc1b84af9ab8fc652fa2ca30d">
-      <bendpoints
-          startX="96"
-          endX="96"
-          endY="300"/>
-      <bendpoints
-          startX="96"
-          startY="-300"
-          endX="96"/>
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-5400cc9b318a40ca8518bac2c927b581.xml#id-5400cc9b318a40ca8518bac2c927b581"/>
     </sourceConnections>
     <bounds
-        x="1992"
-        y="552"
+        x="1812"
+        y="372"
         width="169"
         height="49"/>
     <archimateElement
@@ -613,6 +737,9 @@
         id="id-feb81753b8a84360b098bc80500c4b17"
         source="id-2b1f93ec99b6409eabbc14cda7378438"
         target="id-1d673f8435a94896a0bf0c035e728ab5">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-735580.xml#id-735580"/>
@@ -623,10 +750,17 @@
         textPosition="2"
         source="id-2b1f93ec99b6409eabbc14cda7378438"
         target="id-0c881baf32ca47bc89b2673515aaa792">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <bendpoints
-          startX="-180"
-          startY="-12"
-          endX="180"
+          startX="-108"
+          endX="252"
+          endY="180"/>
+      <bendpoints
+          startX="-108"
+          startY="-192"
+          endX="252"
           endY="-12"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
@@ -638,15 +772,17 @@
         textPosition="2"
         source="id-2b1f93ec99b6409eabbc14cda7378438"
         target="id-e672a54efb3c411bb178751bf25a7907">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <bendpoints
-          startX="-132"
-          startY="-12"
-          endX="228"
-          endY="48"/>
+          startX="-108"
+          endX="252"
+          endY="240"/>
       <bendpoints
-          startX="-132"
-          startY="-60"
-          endX="228"/>
+          startX="-108"
+          startY="-240"
+          endX="252"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-f3d169e42a6a42d3be6771f1a8bcf5d1.xml#id-f3d169e42a6a42d3be6771f1a8bcf5d1"/>
@@ -679,6 +815,14 @@
         id="id-7bd0e8790fa24371bed9da8a87a8d93e"
         source="id-b42176f2bfbb4c17bfb6a75b346ff16e"
         target="id-de1e9c6693f94205abddd924cce90428">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+      <bendpoints
+          startX="90"
+          startY="-120"
+          endX="90"
+          endY="120"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-c77c9443c47a4ce394c52bc9f06ffb2e.xml#id-c77c9443c47a4ce394c52bc9f06ffb2e"/>
@@ -688,6 +832,9 @@
         id="id-331e509f0f75491c91fa9c206c99b551"
         source="id-b42176f2bfbb4c17bfb6a75b346ff16e"
         target="id-16a3cf0b1f474f529560cb010d25e780">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-735608.xml#id-735608"/>
@@ -697,14 +844,17 @@
         id="id-252a89572b8f4527ae5bfbf53794cc14"
         source="id-b42176f2bfbb4c17bfb6a75b346ff16e"
         target="id-802298c1c74c4e5897ba300d275416c4">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-33e2623236984f5184cbf3bcf933ceb6.xml#id-33e2623236984f5184cbf3bcf933ceb6"/>
     </sourceConnections>
     <bounds
         x="552"
-        y="612"
-        width="169"
+        y="732"
+        width="349"
         height="49"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
@@ -713,7 +863,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-16a3cf0b1f474f529560cb010d25e780"
-      targetConnections="id-331e509f0f75491c91fa9c206c99b551"
+      targetConnections="id-331e509f0f75491c91fa9c206c99b551 id-e0f98045341f4c8ebfa1853579431794"
       fontColor="#000000"
       lineColor="#000000"
       fillColor="#ff7c80"
@@ -724,17 +874,8 @@
     <features
         name="labelExpression"
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-aae8d68041cd409b93e6bb81f9d3f250"
-        source="id-16a3cf0b1f474f529560cb010d25e780"
-        target="id-6094f389958c479cae4083e6ed95b0fc">
-      <archimateRelationship
-          xsi:type="archimate:AssociationRelationship"
-          href="AssociationRelationship_id-735672.xml#id-735672"/>
-    </sourceConnections>
     <bounds
-        x="912"
+        x="552"
         y="612"
         width="169"
         height="49"/>
@@ -759,7 +900,7 @@
     <bounds
         x="552"
         y="852"
-        width="529"
+        width="169"
         height="49"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
@@ -768,7 +909,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-6094f389958c479cae4083e6ed95b0fc"
-      targetConnections="id-aae8d68041cd409b93e6bb81f9d3f250"
+      targetConnections="id-ef2f18d7cdba4aa291d0e8c5ab40bfde id-65e02552ffbc479d918adb346c800e07"
       fontColor="#000000"
       lineColor="#000000"
       fillColor="#ff7c80"
@@ -781,7 +922,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="912"
-        y="732"
+        y="372"
         width="169"
         height="49"/>
     <archimateElement
@@ -802,7 +943,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="12"
-        y="792"
+        y="612"
         width="169"
         height="49"/>
     <archimateElement
@@ -823,7 +964,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="12"
-        y="852"
+        y="672"
         width="169"
         height="49"/>
     <archimateElement
@@ -843,7 +984,7 @@
         name="labelExpression"
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
-        x="1992"
+        x="1812"
         y="252"
         width="169"
         height="49"/>
@@ -868,15 +1009,18 @@
         textPosition="0"
         source="id-e1476f35ac3749c8ab65631666395a03"
         target="id-1a7e97a4a1414e5ea747a96f1db307b6">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <bendpoints
-          startX="252"
+          startX="228"
           startY="12"
-          endX="-1008"
-          endY="132"/>
+          endX="-942"
+          endY="-48"/>
       <bendpoints
-          startX="252"
-          startY="-120"
-          endX="-1008"/>
+          startX="228"
+          startY="60"
+          endX="-942"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-735548.xml#id-735548"/>
@@ -887,14 +1031,17 @@
         textPosition="0"
         source="id-e1476f35ac3749c8ab65631666395a03"
         target="id-1d673f8435a94896a0bf0c035e728ab5">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <bendpoints
           startX="228"
           startY="-12"
           endX="-132"
-          endY="228"/>
+          endY="48"/>
       <bendpoints
           startX="228"
-          startY="-240"
+          startY="-60"
           endX="-132"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
@@ -902,7 +1049,7 @@
     </sourceConnections>
     <bounds
         x="12"
-        y="1092"
+        y="912"
         width="169"
         height="49"/>
     <archimateElement
@@ -927,14 +1074,17 @@
         textPosition="0"
         source="id-0c881baf32ca47bc89b2673515aaa792"
         target="id-1d673f8435a94896a0bf0c035e728ab5">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <bendpoints
           startX="228"
           startY="12"
           endX="-132"
-          endY="-108"/>
+          endY="-288"/>
       <bendpoints
           startX="228"
-          startY="120"
+          startY="300"
           endX="-132"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
@@ -942,7 +1092,7 @@
     </sourceConnections>
     <bounds
         x="12"
-        y="732"
+        y="552"
         width="169"
         height="49"/>
     <archimateElement
@@ -966,17 +1116,15 @@
         textPosition="0"
         source="id-126c714e33224805b9d1b0f2f933c4cf"
         target="id-286f65c401664783b87525b04633e6b9">
-      <bendpoints
-          startX="-60"
-          startY="-120"
-          endX="-60"
-          endY="300"/>
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-e815b69af8e04710937227c134d832f8.xml#id-e815b69af8e04710937227c134d832f8"/>
     </sourceConnections>
     <bounds
-        x="1632"
+        x="1272"
         y="1092"
         width="169"
         height="49"/>
@@ -1001,6 +1149,9 @@
         textPosition="0"
         source="id-089f90e47c9441409553fa2663304e11"
         target="id-e49c1598c48d4016be8b6d59d8ccea00">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <bendpoints
           startX="-60"
           startY="-120"
@@ -1011,7 +1162,7 @@
           href="AssociationRelationship_id-8724fae333cd47bcac27db63d2daff87.xml#id-8724fae333cd47bcac27db63d2daff87"/>
     </sourceConnections>
     <bounds
-        x="2172"
+        x="1452"
         y="1092"
         width="169"
         height="49"/>
@@ -1032,8 +1183,8 @@
         name="labelExpression"
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
-        x="12"
-        y="372"
+        x="1632"
+        y="252"
         width="169"
         height="49"/>
     <archimateElement
@@ -1057,21 +1208,20 @@
         textPosition="0"
         source="id-2689b69ea30643ecb174b272397534bb"
         target="id-f4efccad2116409686cf77c87b080221">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <bendpoints
-          startX="228"
-          endX="-1032"
-          endY="60"/>
-      <bendpoints
-          startX="228"
-          startY="-60"
-          endX="-1032"/>
+          startX="-96"
+          endX="84"
+          endY="-180"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-aa2b891482a54c0ea1e2cb0e3650b19d.xml#id-aa2b891482a54c0ea1e2cb0e3650b19d"/>
     </sourceConnections>
     <bounds
-        x="12"
-        y="432"
+        x="1632"
+        y="192"
         width="169"
         height="49"/>
     <archimateElement
@@ -1116,13 +1266,24 @@
         textPosition="0"
         source="id-005ce49847704a329e169d506c98448b"
         target="id-1a7e97a4a1414e5ea747a96f1db307b6">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+      <bendpoints
+          startX="228"
+          endX="-942"
+          endY="60"/>
+      <bendpoints
+          startX="228"
+          startY="-60"
+          endX="-942"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-735572.xml#id-735572"/>
     </sourceConnections>
     <bounds
-        x="1092"
-        y="1092"
+        x="12"
+        y="1032"
         width="169"
         height="49"/>
     <archimateElement
@@ -1146,13 +1307,24 @@
         textPosition="0"
         source="id-d8709916742246559c746d266be908b7"
         target="id-1a7e97a4a1414e5ea747a96f1db307b6">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+      <bendpoints
+          startX="228"
+          endX="-942"
+          endY="180"/>
+      <bendpoints
+          startX="228"
+          startY="-180"
+          endX="-942"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-735475.xml#id-735475"/>
     </sourceConnections>
     <bounds
-        x="1452"
-        y="1092"
+        x="12"
+        y="1152"
         width="169"
         height="49"/>
     <archimateElement
@@ -1176,12 +1348,23 @@
         textPosition="0"
         source="id-7f5ca5f6f145403090bea749ce8a1aa0"
         target="id-1a7e97a4a1414e5ea747a96f1db307b6">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+      <bendpoints
+          startX="228"
+          endX="-942"
+          endY="120"/>
+      <bendpoints
+          startX="228"
+          startY="-120"
+          endX="-942"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-735553.xml#id-735553"/>
     </sourceConnections>
     <bounds
-        x="1272"
+        x="12"
         y="1092"
         width="169"
         height="49"/>
@@ -1227,15 +1410,23 @@
         textPosition="0"
         source="id-4ce21737bebc4bcea520d06767bba50b"
         target="id-6054dbc049c943cf9bc25715f83d4f19">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <bendpoints
           startX="96"
-          endX="96"
-          endY="-360"/>
+          endX="186"
+          endY="-600"/>
       <bendpoints
           startX="96"
-          startY="348"
-          endX="96"
-          endY="-12"/>
+          startY="564"
+          endX="186"
+          endY="-36"/>
+      <bendpoints
+          startX="72"
+          startY="564"
+          endX="162"
+          endY="-36"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-d00a05f99e764c99a9befd17ceaff4d6.xml#id-d00a05f99e764c99a9befd17ceaff4d6"/>
@@ -1266,15 +1457,23 @@
         textPosition="0"
         source="id-d25b85cf740f4ed5b7d81016adddbd41"
         target="id-6054dbc049c943cf9bc25715f83d4f19">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <bendpoints
           startX="96"
-          endX="96"
-          endY="-420"/>
+          endX="186"
+          endY="-660"/>
       <bendpoints
           startX="96"
-          startY="408"
-          endX="96"
-          endY="-12"/>
+          startY="624"
+          endX="186"
+          endY="-36"/>
+      <bendpoints
+          startX="72"
+          startY="624"
+          endX="162"
+          endY="-36"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-735668.xml#id-735668"/>
@@ -1305,6 +1504,23 @@
         textPosition="0"
         source="id-92a97499b1e840babc679be7bdf2b7df"
         target="id-802298c1c74c4e5897ba300d275416c4">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+      <bendpoints
+          startX="96"
+          endX="96"
+          endY="240"/>
+      <bendpoints
+          startX="96"
+          startY="-204"
+          endX="96"
+          endY="36"/>
+      <bendpoints
+          startX="72"
+          startY="-204"
+          endX="72"
+          endY="36"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-8046404d226343f7bf35940f64eafca9.xml#id-8046404d226343f7bf35940f64eafca9"/>
@@ -1335,13 +1551,30 @@
         textPosition="0"
         source="id-14115a70a07a45ee871855aa8a87b914"
         target="id-802298c1c74c4e5897ba300d275416c4">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+      <bendpoints
+          startX="96"
+          endX="96"
+          endY="300"/>
+      <bendpoints
+          startX="96"
+          startY="-264"
+          endX="96"
+          endY="36"/>
+      <bendpoints
+          startX="72"
+          startY="-264"
+          endX="72"
+          endY="36"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-9013a6d7e47d4285a0e6ad8242b3d8af.xml#id-9013a6d7e47d4285a0e6ad8242b3d8af"/>
     </sourceConnections>
     <bounds
-        x="732"
-        y="1092"
+        x="552"
+        y="1152"
         width="169"
         height="49"/>
     <archimateElement
@@ -1365,13 +1598,24 @@
         textPosition="0"
         source="id-5736d1e06e4f4903ae1e0e28174d23c7"
         target="id-1a7e97a4a1414e5ea747a96f1db307b6">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+      <bendpoints
+          startX="228"
+          endX="-942"
+          endY="240"/>
+      <bendpoints
+          startX="228"
+          startY="-240"
+          endX="-942"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-735555.xml#id-735555"/>
     </sourceConnections>
     <bounds
-        x="1992"
-        y="1092"
+        x="12"
+        y="1212"
         width="169"
         height="49"/>
     <archimateElement
@@ -1395,13 +1639,16 @@
         textPosition="0"
         source="id-d0e027ab8e114d03a43bc14024c9ab4e"
         target="id-aaf87aba2412435a894d77a2b974c898">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-2c38b733e9c441498ac45f4711d54eb1.xml#id-2c38b733e9c441498ac45f4711d54eb1"/>
     </sourceConnections>
     <bounds
         x="12"
-        y="612"
+        y="372"
         width="169"
         height="49"/>
     <archimateElement
@@ -1425,13 +1672,30 @@
         textPosition="0"
         source="id-8382443b2a6b46909fc3eb9024f910e5"
         target="id-802298c1c74c4e5897ba300d275416c4">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
+      <bendpoints
+          startX="96"
+          endX="96"
+          endY="360"/>
+      <bendpoints
+          startX="96"
+          startY="-324"
+          endX="96"
+          endY="36"/>
+      <bendpoints
+          startX="72"
+          startY="-324"
+          endX="72"
+          endY="36"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-da846746482a4791b8036205250cdbef.xml#id-da846746482a4791b8036205250cdbef"/>
     </sourceConnections>
     <bounds
-        x="912"
-        y="1092"
+        x="552"
+        y="1212"
         width="169"
         height="49"/>
     <archimateElement
@@ -1455,13 +1719,16 @@
         textPosition="0"
         source="id-d14d8b0bf0294ce4af96cb057419a4e7"
         target="id-1d673f8435a94896a0bf0c035e728ab5">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <bendpoints
           startX="228"
           endX="-132"
-          endY="120"/>
+          endY="-60"/>
       <bendpoints
           startX="228"
-          startY="-120"
+          startY="60"
           endX="-132"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
@@ -1469,7 +1736,7 @@
     </sourceConnections>
     <bounds
         x="12"
-        y="972"
+        y="792"
         width="169"
         height="49"/>
     <archimateElement
@@ -1493,6 +1760,9 @@
         textPosition="0"
         source="id-70d620f5338e4ebb920ae07abdf7cd11"
         target="id-1530b3646f2749f6bc3a89ba1e1d5493">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <bendpoints
           startX="-60"
           startY="-120"
@@ -1528,22 +1798,30 @@
         textPosition="0"
         source="id-ef74f8f601244cf0a7576f86f112ac9a"
         target="id-b42176f2bfbb4c17bfb6a75b346ff16e">
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <bendpoints
-          startX="96"
-          endX="96"
-          endY="-360"/>
+          startX="444"
+          endX="-186"
+          endY="-300"/>
       <bendpoints
-          startX="96"
-          startY="348"
-          endX="96"
-          endY="-12"/>
+          startX="444"
+          startY="264"
+          endX="-186"
+          endY="-36"/>
+      <bendpoints
+          startX="468"
+          startY="264"
+          endX="-162"
+          endY="-36"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-735709.xml#id-735709"/>
     </sourceConnections>
     <bounds
-        x="552"
-        y="252"
+        x="12"
+        y="432"
         width="169"
         height="49"/>
     <archimateElement
@@ -1566,7 +1844,7 @@
     <bounds
         x="12"
         y="12"
-        width="2329"
+        width="2149"
         height="37"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
@@ -1591,21 +1869,16 @@
         textPosition="0"
         source="id-e036ba29021549618d41b6796524c3bc"
         target="id-1d673f8435a94896a0bf0c035e728ab5">
-      <bendpoints
-          startX="228"
-          endX="-132"
-          endY="180"/>
-      <bendpoints
-          startX="228"
-          startY="-180"
-          endX="-132"/>
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-735590.xml#id-735590"/>
     </sourceConnections>
     <bounds
         x="12"
-        y="1032"
+        y="852"
         width="169"
         height="49"/>
     <archimateElement
@@ -1649,7 +1922,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="12"
-        y="912"
+        y="732"
         width="169"
         height="49"/>
     <archimateElement
@@ -1672,7 +1945,7 @@
         value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
     <bounds
         x="12"
-        y="672"
+        y="492"
         width="169"
         height="49"/>
     <archimateElement
@@ -1698,21 +1971,16 @@
         textPosition="0"
         source="id-bd6e5e598d81438aa8f1503a97e1618a"
         target="id-1a7e97a4a1414e5ea747a96f1db307b6">
-      <bendpoints
-          startX="252"
-          endX="-1008"
-          endY="180"/>
-      <bendpoints
-          startX="252"
-          startY="-180"
-          endX="-1008"/>
+      <features
+          name="labelExpression"
+          value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-8882fe6655f54accb70282c3c5ac5489.xml#id-8882fe6655f54accb70282c3c5ac5489"/>
     </sourceConnections>
     <bounds
         x="12"
-        y="1152"
+        y="972"
         width="169"
         height="49"/>
     <archimateElement
