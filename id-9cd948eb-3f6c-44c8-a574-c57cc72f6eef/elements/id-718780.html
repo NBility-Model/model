@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Energie-uitwisseling beheren</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Energie-uitwisseling beheren</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-BusinessFunction"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-BusinessFunction" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Het vermogen om energie-uitwisseling vast te stellen. Dit is inclusief berekenen van energie-uitwisseling ((standaardjaar)verbruik), vaststellen onbemeten, berekeningen bij seri&#235;le allocatiepunten, berekening toegekende energieverlies en volume afgenomen marktdiensten (zoals balancering, opregel-, afregelaanbod). Tevens inclusief oplevering van de energie-uitwisseling van de meetverantwoordelijke, de oplevering van derden (CPO (charge point operator)) en opgaven van gemeenten tbv openbare verlichting (berekening energie-uitwisseling via belastingprofiel).</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>Code</td><td class="convertlinks no-margin" style="white-space:pre-wrap">C.6.3.3</td></tr><tr><td>Level</td><td class="convertlinks no-margin" style="white-space:pre-wrap">3</td></tr><tr><td>Name (en)</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Manage energy exchange</td></tr><tr><td>Documentation (en)</td><td class="convertlinks no-margin" style="white-space:pre-wrap">The ability to determine energy exchange. This includes calculating energy exchange (standard annual consumption), determining unmetered, calculations at serial allocation points, calculation of allocated energy loss and volume of market services purchased (such as balancing, upward adjustment and downward adjustment supply). This also includes delivery of the energy exchange from the Measurement Responsible party, the delivery from third parties (CPO (charge point operator)) and statements from municipalities for public lighting (calculation of energy exchange via tax profile).</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-a60c2c7ab861424f98cf8b7d599c3b9b">
+																	<td><a href="../views/id-a60c2c7ab861424f98cf8b7d599c3b9b.html" target="view" title="N3 capabilities met objecten C"> N3 capabilities met objecten C </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-75e2269d894e41958e367374640f2da9">
+																	<td><a href="../views/id-75e2269d894e41958e367374640f2da9.html" target="view" title="L3 value stream C.F"> L3 value stream C.F </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-af5a35b312f04927ae011d15e96bc0f1">
+																	<td><a href="../views/id-af5a35b312f04927ae011d15e96bc0f1.html" target="view" title="L3 value stream C.G"> L3 value stream C.G </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-5fd04e9c0a4f4c61834f2bb191b3f727">
+																	<td><a href="../views/id-5fd04e9c0a4f4c61834f2bb191b3f727.html" target="view" title="N3 capabilities C"> N3 capabilities C </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-3d7b500b1491491c948a59ef30f9ed3f">
+																	<td><a href="../views/id-3d7b500b1491491c948a59ef30f9ed3f.html" target="view" title="L3 capabilities with objects C"> L3 capabilities with objects C </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-c0ce6c7ad4064b9e879c0257818ca51b">
+																	<td><a href="../views/id-c0ce6c7ad4064b9e879c0257818ca51b.html" target="view" title="N3 waardestroom C.F"> N3 waardestroom C.F </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-effdb3e7442c4213b692455c173dd628">
+																	<td><a href="../views/id-effdb3e7442c4213b692455c173dd628.html" target="view" title="L3 capabilities C"> L3 capabilities C </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-408d433cd2ef46678f1ab7b579c642c1">
+																	<td><a href="../views/id-408d433cd2ef46678f1ab7b579c642c1.html" target="view" title="N3 waardestroom C.G"> N3 waardestroom C.G </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-a2992e2d83d245c3b58c840c029c9e73.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-718780.html" target="element"> Energie-uitwisseling beheren</a></td>
+											<td><a href="../elements/id-06e817b3380649d49850537eb6ca1e4b.html" target="element"> Vaststellen uitgewisselde energie</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-5edd0d14e9ff494fb517e77a701388b1.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-718780.html" target="element"> Energie-uitwisseling beheren</a></td>
+											<td><a href="../elements/id-723109.html" target="element"> Energie-uitwisseling</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-dd3da144e03e47e7aefe5c3c5ab7aa0a.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-718780.html" target="element"> Energie-uitwisseling beheren</a></td>
+											<td><a href="../elements/id-4f040e82ba93481ba43f66c44701fc00.html" target="element"> Vaststellen uitgewisselde energie</a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-c6f9afa7533443eb89242c645162177b.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-FlowRelationship" /></td>
+											<td><a href="../elements/id-718714.html" target="element"> Aansluitingen/allocatiepunten beheren</a></td>
+											<td><a href="../elements/id-718780.html" target="element"> Energie-uitwisseling beheren</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-878850.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-718383.html" target="element"> Marktprocessen uitvoeren/faciliteren</a></td>
+											<td><a href="../elements/id-718780.html" target="element"> Energie-uitwisseling beheren</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
