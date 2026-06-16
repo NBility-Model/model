@@ -16,9 +16,9 @@ jobs:
         uses: actions/checkout@v2
       - name: Set Archi preferences
         run: |
-          mkdir -p "${{ runner.temp }}/_github_home/.archi/.metadata/.plugins/org.eclipse.core.runtime/.settings"
-          echo "eclipse.preferences.version=1" > "${{ runner.temp }}/_github_home/.archi/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.archimatetool.editor.prefs"
-          echo "lineJumps=false" >> "${{ runner.temp }}/_github_home/.archi/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.archimatetool.editor.prefs"
+          mkdir -p /home/runner/work/_temp/_github_home/.archi/.metadata/.plugins/org.eclipse.core.runtime/.settings
+          echo "eclipse.preferences.version=1" > /home/runner/work/_temp/_github_home/.archi/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.archimatetool.editor.prefs
+          echo "lineJumps=false" >> /home/runner/work/_temp/_github_home/.archi/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.archimatetool.editor.prefs
       - name: Deploy Archi report
         id: archi
         uses: WoozyMasta/archimate-ci-image@5.7.0-1.0.6
