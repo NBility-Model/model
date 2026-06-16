@@ -16,18 +16,16 @@ jobs:
         uses: actions/checkout@v2
       - name: Set Archi preferences
         run: |
-          mkdir -p ./settings
-          echo "eclipse.preferences.version=1" > "./settings/com.archimatetool.editor.prefs"
-          echo "lineJumps=false" >> "./settings/com.archimatetool.editor.prefs"
+          mkdir -p "${{ runner.temp }}/_github_home/.archi/.metadata/.plugins/org.eclipse.core.runtime/.settings"
+          echo "eclipse.preferences.version=1" > "${{ runner.temp }}/_github_home/.archi/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.archimatetool.editor.prefs"
+          echo "lineJumps=false" >> "${{ runner.temp }}/_github_home/.archi/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.archimatetool.editor.prefs"
       - name: Deploy Archi report
-        run: |
-          docker run --rm \
-            -v "${{ github.workspace }}:/github/workspace" \
-            -v "${{ github.workspace }}/settings:/root/.archi/.metadata/.plugins/org.eclipse.core.runtime/.settings" \
-            -e GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" \
-            -e ARCHI_HTML_REPORT_ENABLED="true" \
-            -e ARCHI_JASPER_REPORT_ENABLED="true" \
-            -e ARCHI_JASPER_REPORT_FORMATS="PDF,DOCX" \
-            -e ARCHI_CSV_REPORT_ENABLED="true" \
-            -e ARCHI_EXPORT_MODEL_ENABLED="true" \
-            ghcr.io/woozymasta/archimate-ci-image:5.7.0-1.0.6
+        id: archi
+        uses: WoozyMasta/archimate-ci-image@5.7.0-1.0.6
+        with:
+          archiHtmlReportEnabled: true
+          archiJasperReportEnabled: true
+          archiJasperReportFormats: PDF,DOCX
+          archiCsvReportEnabled: true
+          archiExportModelEnabled: true
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
