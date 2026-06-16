@@ -16,12 +16,14 @@ jobs:
         uses: actions/checkout@v2
       - name: Set Archi preferences
         run: |
-          mkdir -p ./settings
-          echo "eclipse.preferences.version=1" > "./settings/com.archimatetool.editor.prefs"
-          echo "lineJumps=false" >> "./settings/com.archimatetool.editor.prefs"
+          mkdir -p ./.archi/.metadata/.plugins/org.eclipse.core.runtime/.settings
+          echo "eclipse.preferences.version=1" > "./.archi/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.archimatetool.editor.prefs"
+          echo "lineJumps=false" >> "./.archi/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.archimatetool.editor.prefs"
       - name: Deploy Archi report
         id: archi
         uses: WoozyMasta/archimate-ci-image@5.7.0-1.0.6
+        env:
+          HOME: ${{ github.workspace }}
         with:
           archiHtmlReportEnabled: true
           archiJasperReportEnabled: true
@@ -29,4 +31,3 @@ jobs:
           archiCsvReportEnabled: true
           archiExportModelEnabled: true
           githubToken: ${{ secrets.GITHUB_TOKEN }}
-          archiExtraArgs: "--preferences ${{ github.workspace }}/settings/com.archimatetool.editor.prefs"
