@@ -20,16 +20,6 @@
       <features
           name="labelExpression"
           value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-      <bendpoints
-          startX="-156"
-          startY="-372"
-          endX="-144"
-          endY="-588"/>
-      <bendpoints
-          startX="-156"
-          startY="240"
-          endX="-144"
-          endY="24"/>
       <archimateRelationship
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-1a31de82005f4b6fac5f012fa717952c.xml#id-1a31de82005f4b6fac5f012fa717952c"/>
@@ -42,16 +32,6 @@
       <features
           name="labelExpression"
           value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-      <bendpoints
-          startX="-156"
-          startY="-372"
-          endX="-144"
-          endY="-372"/>
-      <bendpoints
-          startX="-156"
-          startY="24"
-          endX="-144"
-          endY="24"/>
       <archimateRelationship
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-7e62615ad51941f090f20a17378bb8d1.xml#id-7e62615ad51941f090f20a17378bb8d1"/>
@@ -64,16 +44,6 @@
       <features
           name="labelExpression"
           value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-      <bendpoints
-          startX="-156"
-          startY="-372"
-          endX="-144"
-          endY="-156"/>
-      <bendpoints
-          startX="-156"
-          startY="-192"
-          endX="-144"
-          endY="24"/>
       <archimateRelationship
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-b62a113eaf4f4f80ae411a8b7e35cd0e.xml#id-b62a113eaf4f4f80ae411a8b7e35cd0e"/>
@@ -86,16 +56,6 @@
       <features
           name="labelExpression"
           value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-      <bendpoints
-          startX="-156"
-          startY="-372"
-          endX="-144"
-          endY="-480"/>
-      <bendpoints
-          startX="-156"
-          startY="132"
-          endX="-144"
-          endY="24"/>
       <archimateRelationship
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-e4674c8460ec413983fd81ded8ba72fa.xml#id-e4674c8460ec413983fd81ded8ba72fa"/>
@@ -108,16 +68,6 @@
       <features
           name="labelExpression"
           value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-      <bendpoints
-          startX="-156"
-          startY="-372"
-          endX="-144"
-          endY="-48"/>
-      <bendpoints
-          startX="-156"
-          startY="-300"
-          endX="-144"
-          endY="24"/>
       <archimateRelationship
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-c355b5fd946a4847846427a5ecba2d00.xml#id-c355b5fd946a4847846427a5ecba2d00"/>
@@ -130,16 +80,6 @@
       <features
           name="labelExpression"
           value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-      <bendpoints
-          startX="-156"
-          startY="-372"
-          endX="-144"
-          endY="-264"/>
-      <bendpoints
-          startX="-156"
-          startY="-84"
-          endX="-144"
-          endY="24"/>
       <archimateRelationship
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-d8569ecc6df44c9a8817538292696dd2.xml#id-d8569ecc6df44c9a8817538292696dd2"/>
@@ -155,7 +95,8 @@
         targetConnections="id-e3bcf214ee44436986770b4e3948aea6"
         font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
         lineColor="#000000"
-        fillColor="#edebf9">
+        fillColor="#edebf9"
+        textPosition="1">
       <features
           name="iconVisible"
           value="2"/>
@@ -177,7 +118,8 @@
         targetConnections="id-542c274e147a4a18ab0909bfa29d331f"
         font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
         lineColor="#000000"
-        fillColor="#ffffcc">
+        fillColor="#ffffcc"
+        textPosition="1">
       <features
           name="iconVisible"
           value="2"/>
@@ -199,7 +141,8 @@
         targetConnections="id-7b4f8872e0014bad83fb8c96663df43b"
         font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
         lineColor="#000000"
-        fillColor="#ffcc99">
+        fillColor="#ffcc99"
+        textPosition="1">
       <features
           name="iconVisible"
           value="2"/>
@@ -221,7 +164,8 @@
         targetConnections="id-ea329ded79454b6da50a32c53d16137b"
         font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
         lineColor="#000000"
-        fillColor="#ff7c80">
+        fillColor="#ff7c80"
+        textPosition="1">
       <features
           name="iconVisible"
           value="2"/>
@@ -243,7 +187,8 @@
         targetConnections="id-c1910757b4ab41dd86c66590b900a90e"
         font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
         lineColor="#000000"
-        fillColor="#bfeeff">
+        fillColor="#bfeeff"
+        textPosition="1">
       <features
           name="iconVisible"
           value="2"/>
@@ -265,7 +210,8 @@
         targetConnections="id-6951345a5eeb44ae918984bc8c8dcb2e"
         font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
         lineColor="#000000"
-        fillColor="#e5f1d7">
+        fillColor="#e5f1d7"
+        textPosition="1">
       <features
           name="iconVisible"
           value="2"/>
@@ -302,16 +248,6 @@
       <features
           name="labelExpression"
           value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-      <bendpoints
-          startX="-156"
-          startY="-372"
-          endX="156"
-          endY="-372"/>
-      <bendpoints
-          startX="-456"
-          startY="24"
-          endX="-144"
-          endY="24"/>
       <archimateRelationship
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-8b54ce2dc4b246febe40110579e309ba.xml#id-8b54ce2dc4b246febe40110579e309ba"/>
@@ -324,16 +260,6 @@
       <features
           name="labelExpression"
           value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-      <bendpoints
-          startX="-156"
-          startY="-372"
-          endX="156"
-          endY="-696"/>
-      <bendpoints
-          startX="-456"
-          startY="348"
-          endX="-144"
-          endY="24"/>
       <archimateRelationship
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-728926d997534efcacebf33b2c23dc16.xml#id-728926d997534efcacebf33b2c23dc16"/>
@@ -346,16 +272,6 @@
       <features
           name="labelExpression"
           value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-      <bendpoints
-          startX="-156"
-          startY="-372"
-          endX="156"
-          endY="-48"/>
-      <bendpoints
-          startX="-456"
-          startY="-300"
-          endX="-144"
-          endY="24"/>
       <archimateRelationship
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-f3b925be9108415997be518a7701fbbe.xml#id-f3b925be9108415997be518a7701fbbe"/>
@@ -368,16 +284,6 @@
       <features
           name="labelExpression"
           value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-      <bendpoints
-          startX="-156"
-          startY="-372"
-          endX="156"
-          endY="-588"/>
-      <bendpoints
-          startX="-456"
-          startY="240"
-          endX="-144"
-          endY="24"/>
       <archimateRelationship
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-0b333d310d3f475db728528487610677.xml#id-0b333d310d3f475db728528487610677"/>
@@ -390,16 +296,6 @@
       <features
           name="labelExpression"
           value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-      <bendpoints
-          startX="-156"
-          startY="-372"
-          endX="156"
-          endY="-480"/>
-      <bendpoints
-          startX="-456"
-          startY="132"
-          endX="-144"
-          endY="24"/>
       <archimateRelationship
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-84ff74c9c33f4d47bf750efee8b37870.xml#id-84ff74c9c33f4d47bf750efee8b37870"/>
@@ -412,16 +308,6 @@
       <features
           name="labelExpression"
           value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-      <bendpoints
-          startX="-156"
-          startY="-372"
-          endX="156"
-          endY="-264"/>
-      <bendpoints
-          startX="-456"
-          startY="-84"
-          endX="-144"
-          endY="24"/>
       <archimateRelationship
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-711a8b2ebc4a4347aff3ec9ae3d96ba9.xml#id-711a8b2ebc4a4347aff3ec9ae3d96ba9"/>
@@ -434,16 +320,6 @@
       <features
           name="labelExpression"
           value="${if:${property:Code}:${property:Code}. }${if:$vfolder{property:Language=en}:${property:Name (en)}:${name}}"/>
-      <bendpoints
-          startX="-156"
-          startY="-372"
-          endX="156"
-          endY="-156"/>
-      <bendpoints
-          startX="-456"
-          startY="-192"
-          endX="-144"
-          endY="24"/>
       <archimateRelationship
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-c05236c15e614f18910eba4c85ebcfa6.xml#id-c05236c15e614f18910eba4c85ebcfa6"/>
@@ -459,7 +335,8 @@
         targetConnections="id-e17402fcc1c0449bbcbcb179582bc4f8"
         font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
         lineColor="#000000"
-        fillColor="#bfbfbf">
+        fillColor="#bfbfbf"
+        textPosition="1">
       <features
           name="iconVisible"
           value="2"/>
@@ -481,7 +358,8 @@
         targetConnections="id-af7bfd0853f34bd399dfd6cc2a8f2a11"
         font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
         lineColor="#000000"
-        fillColor="#bfbfbf">
+        fillColor="#bfbfbf"
+        textPosition="1">
       <features
           name="iconVisible"
           value="2"/>
@@ -503,7 +381,8 @@
         targetConnections="id-15d05969b353497e9a6fe6cc73317729"
         font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
         lineColor="#000000"
-        fillColor="#bfbfbf">
+        fillColor="#bfbfbf"
+        textPosition="1">
       <features
           name="iconVisible"
           value="2"/>
@@ -525,7 +404,8 @@
         targetConnections="id-ec3087c576ea4a1aaacc5946cd3ef46e"
         font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
         lineColor="#000000"
-        fillColor="#bfbfbf">
+        fillColor="#bfbfbf"
+        textPosition="1">
       <features
           name="iconVisible"
           value="2"/>
@@ -547,7 +427,8 @@
         targetConnections="id-e7a3127c864a4002941b730e07c67308"
         font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
         lineColor="#000000"
-        fillColor="#bfbfbf">
+        fillColor="#bfbfbf"
+        textPosition="1">
       <features
           name="iconVisible"
           value="2"/>
@@ -569,7 +450,8 @@
         targetConnections="id-9f3f42e207434a189c9a59861ff6539f"
         font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
         lineColor="#000000"
-        fillColor="#bfbfbf">
+        fillColor="#bfbfbf"
+        textPosition="1">
       <features
           name="iconVisible"
           value="2"/>
@@ -591,7 +473,8 @@
         targetConnections="id-1b6acbf054d84fec8c8c2a842280b7d4"
         font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
         lineColor="#000000"
-        fillColor="#bfbfbf">
+        fillColor="#bfbfbf"
+        textPosition="1">
       <features
           name="iconVisible"
           value="2"/>
