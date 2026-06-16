@@ -1,4 +1,5 @@
-on: 
+on:
+  workflow_dispatch:
   push:
     branches:
       - 'release/v2.4'
@@ -13,7 +14,11 @@ jobs:
     steps:
       - name: Check out the repo
         uses: actions/checkout@v2
-
+      - name: Set Archi preferences
+        run: |
+          mkdir -p ./settings
+          echo "eclipse.preferences.version=1" > "./settings/com.archimatetool.editor.prefs"
+          echo "lineJumps=false" >> "./settings/com.archimatetool.editor.prefs"
       - name: Deploy Archi report
         id: archi
         uses: WoozyMasta/archimate-ci-image@5.7.0-1.0.6
@@ -24,4 +29,4 @@ jobs:
           archiCsvReportEnabled: true
           archiExportModelEnabled: true
           githubToken: ${{ secrets.GITHUB_TOKEN }}
-
+          archiExtraArgs: "--preferences ${{ github.workspace }}/settings/com.archimatetool.editor.prefs"
